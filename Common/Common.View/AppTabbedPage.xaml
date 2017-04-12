@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CustomControl:TabbedPageEx xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:CustomControl="clr-namespace:Common.View.CustomControl;assembly=Common.View"
+             xmlns:app="clr-namespace:Common.View;assembly=Common.View"
+             x:Class="Common.View.AppTabbedPage"
+             BackgroundColor ="{x:Static app:BaseApp.PAGE_BACKGROUND_COLOR}"
+             Title="{Binding Title}">
+</CustomControl:TabbedPageEx>

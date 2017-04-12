@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E8461BB-E5BA-4D73-8B6C-B4B34F742CAD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.Model</RootNamespace>
+    <AssemblyName>Common.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Actions\ActionRequest.cs" />
+    <Compile Include="CRMSDK\Microsoft.Crm.Sdk.Messages.Samples.cs" />
+    <Compile Include="CRMSDK\Microsoft.Crm.Sdk.Samples.cs" />
+    <Compile Include="CRMSDK\Microsoft.Xrm.Sdk.Messages.Samples.cs" />
+    <Compile Include="CRMSDK\Microsoft.Xrm.Sdk.Metadata.Query.Samples.cs" />
+    <Compile Include="CRMSDK\Microsoft.Xrm.Sdk.Metadata.Samples.cs" />
+    <Compile Include="CRMSDK\Microsoft.Xrm.Sdk.Query.Samples.cs" />
+    <Compile Include="CRMSDK\Microsoft.Xrm.Sdk.Samples.cs" />
+    <Compile Include="CRMSDK\Microsoft.Xrm.Sdk.Utility.Samples.cs" />
+    <Compile Include="Entities\Account.cs" />
+    <Compile Include="Entities\Annotation.cs" />
+    <Compile Include="Entities\BookableResourceBooking.cs" />
+    <Compile Include="Entities\BookableResource.cs" />
+    <Compile Include="Entities\msdyn_expense.cs" />
+    <Compile Include="Entities\msdyn_expensecategory.cs" />
+    <Compile Include="Entities\msdyn_expensereceipt.cs" />
+    <Compile Include="Entities\msdyn_project.cs" />
+    <Compile Include="Entities\msdyn_projecttask.cs" />
+    <Compile Include="Entities\msdyn_projectteam.cs" />
+    <Compile Include="Entities\msdyn_timeentry.cs" />
+    <Compile Include="Entities\msdyn_transactioncategory.cs" />
+    <Compile Include="Entities\msdyn_transactioncategoryhierarchyelement.cs" />
+    <Compile Include="Entities\Organization.cs" />
+    <Compile Include="Entities\SystemUser.cs" />
+    <Compile Include="Entities\Task.cs" />
+    <Compile Include="Entities\TransactionCurrency.cs" />
+    <Compile Include="Extension\BaseEntity.cs" />
+    <Compile Include="Extension\msdyn_timeentry.cs" />
+    <Compile Include="Extension\msdyn_expense.cs" />
+    <Compile Include="Extension\msdyn_expensecategory.cs" />
+    <Compile Include="Extension\msdyn_project.cs" />
+    <Compile Include="Extension\msdyn_projecttask.cs" />
+    <Compile Include="Extension\ReferenceData.cs" />
+    <Compile Include="Extension\TransactionCurrency.cs" />
+    <Compile Include="Map\Coordinate.cs" />
+    <Compile Include="ObservableObject.cs" />
+    <Compile Include="OptionSet\bookableresourcecharacteristic_statuscode.cs" />
+    <Compile Include="OptionSet\BookableResourceState.cs" />
+    <Compile Include="OptionSet\msdyn_expensecategorybehavior.cs" />
+    <Compile Include="OptionSet\msdyn_expensetypes.cs" />
+    <Compile Include="OptionSet\msdyn_expense_msdyn_expensestatus.cs" />
+    <Compile Include="OptionSet\msdyn_timeentrytype.cs" />
+    <Compile Include="OptionSet\msdyn_timeentry_msdyn_entrystatus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\..\packages\Xamarin.Forms.2.3.2.127\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\..\packages\Xamarin.Forms.2.3.2.127\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\..\packages\Xamarin.Forms.2.3.2.127\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="..\..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.2.127\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

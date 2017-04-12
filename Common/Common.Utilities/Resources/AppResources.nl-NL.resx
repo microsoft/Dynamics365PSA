@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Accountinstellingen</value>
+  </data>
+  <data name="AddProficiency" xml:space="preserve">
+    <value>Deskundigheid toevoegen</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="AddSkill" xml:space="preserve">
+    <value>Vaardigheid toevoegen</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Bedrag</value>
+  </data>
+  <data name="AnErrorOccurredWhileGettingYourWork" xml:space="preserve">
+    <value>Er is een fout opgetreden tijdens het laden van uw werkaanbevelingen. Probeer het later opnieuw.</value>
+  </data>
+  <data name="ApplicationSent" xml:space="preserve">
+    <value>Sollicitatie verzonden</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Solliciteren</value>
+  </data>
+  <data name="ApplyingForJob" xml:space="preserve">
+    <value>Solliciteert naar deze functie...</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>GOEDGEKEURD</value>
+  </data>
+  <data name="ByCompatibilityLowercase" xml:space="preserve">
+    <value>op compatibiliteit</value>
+  </data>
+  <data name="ByDurationLowercase" xml:space="preserve">
+    <value>op duur</value>
+  </data>
+  <data name="ByEarliestStartLowercase" xml:space="preserve">
+    <value>op vroegste start</value>
+  </data>
+  <data name="ByMyConnectionsLowercase" xml:space="preserve">
+    <value>op mijn verbindingen</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="CancelLowercase" xml:space="preserve">
+    <value>annuleren</value>
+    <comment>cancel in lowercase</comment>
+  </data>
+  <data name="CaptureReceipt" xml:space="preserve">
+    <value>Betalingsbewijs toevoegen</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>U kunt geen onkostenpost opslaan zonder een categorie. Selecteer een categorie en probeer opnieuw op te slaan.</value>
+    <comment>Error when user hasn't entered an expense cateogory.</comment>
+  </data>
+  <data name="ChangeExpenseTypeWarning" xml:space="preserve">
+    <value>Als u de onkostencategorie wijzigt, gaat de volgende informatie verloren: {0}.
+Wilt u doorgaan?</value>
+    <comment>Error message indicating some data will be lost if the user changes expense category. {Placeholder="{0}"} Placeholder 0 is a string of the data that will be lost</comment>
+  </data>
+  <data name="Compatibility" xml:space="preserve">
+    <value>Compatibiliteit</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>Verbonden met</value>
+  </data>
+  <data name="ContactingYourCompanyDotDotDot" xml:space="preserve">
+    <value>Er wordt contact opgenomen met uw bedrijf...</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Nieuw</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Klanten</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="DateInvalidWarning" xml:space="preserve">
+    <value>De opgegeven datum is ongeldig.</value>
+  </data>
+  <data name="DayLowercase" xml:space="preserve">
+    <value>dag</value>
+  </data>
+  <data name="DaysLowercase" xml:space="preserve">
+    <value>dagen</value>
+  </data>
+  <data name="DefaultDirectory" xml:space="preserve">
+    <value>myDirectory</value>
+    <comment>Default directory to give when there is none provided</comment>
+  </data>
+  <data name="DefaultFilename" xml:space="preserve">
+    <value>myFile</value>
+    <comment>Default filename to give when there is none provided</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>De geselecteerde items worden verwijderd.</value>
+  </data>
+  <data name="DeleteWarningExpense" xml:space="preserve">
+    <value>De geselecteerde onkostenpost wordt verwijderd.</value>
+    <comment>Confirmation message when deleting expenses.</comment>
+  </data>
+  <data name="DeleteWarningTime" xml:space="preserve">
+    <value>De geselecteerde tijdsvermelding wordt verwijderd.</value>
+    <comment>Confirmation message when deleting time entries.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschrijving</value>
+  </data>
+  <data name="DescriptionUppercase" xml:space="preserve">
+    <value>BESCHRIJVING</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Negeren</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Concept</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duur (uu:mm)</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Duur</value>
+  </data>
+  <data name="EarliestStart" xml:space="preserve">
+    <value>Vroegste start</value>
+  </data>
+  <data name="endPoint" xml:space="preserve">
+    <value>CRM Online-adres</value>
+  </data>
+  <data name="errorAuthenticationCancelled" xml:space="preserve">
+    <value>U hebt de verificatie geannuleerd. Als u de app wilt gebruiken, meldt u zich aan bij uw CRM-server.</value>
+  </data>
+  <data name="errorAuthenticationFailed" xml:space="preserve">
+    <value>Er is een fout opgetreden tijdens een poging om u te verifiëren op de server. Probeer het later opnieuw.</value>
+  </data>
+  <data name="errorCrmRequestNotSupported" xml:space="preserve">
+    <value>Uw projectserviceoplossing is mogelijk niet correct ingesteld. Neem contact op met de beheerder.</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>U bent niet verbonden met het internet. Controleer uw verbinding en probeer het nogmaals.</value>
+  </data>
+  <data name="errorOAuthUrlRetrieveFailed" xml:space="preserve">
+    <value>Wij kunnen geen verbinding maken met de opgegeven server. Controleer de URL van de CRM-server of uw internetverbinding en probeer het opnieuw.</value>
+  </data>
+  <data name="ErrorOpeningFile" xml:space="preserve">
+    <value>Het volgende bestand kon niet worden geopend: {0}</value>
+    <comment>Error message when a file I/O open operation failed. {Placeholder="{0}"} Placeholder 0 is the name of the file that could not be opened</comment>
+  </data>
+  <data name="errorRestCall" xml:space="preserve">
+    <value>Er is een fout opgetreden op de server tijdens het uitvoeren van deze bewerking.</value>
+  </data>
+  <data name="errorRetrievePrivilegeForUser" xml:space="preserve">
+    <value>U hebt geen machtiging voor toegang tot de toepassing. Neem contact op met de beheerder.</value>
+  </data>
+  <data name="errorServiceAccessDenied" xml:space="preserve">
+    <value>U hebt helaas geen toegang tot de service. Probeer u opnieuw aan te melden.</value>
+  </data>
+  <data name="errorServiceContactAdmin" xml:space="preserve">
+    <value>Er is helaas een fout opgetreden bij het contact opnemen met de service. Neem contact op met de beheerder. Foutdetails:\n\n{0}</value>
+    <comment>Error when the app is not able to connect to your dynamics instance. {Placeholder="{0}"} Placeholder 0 is a string containing details of the error</comment>
+  </data>
+  <data name="errorServiceUnknown" xml:space="preserve">
+    <value>Er is helaas een fout opgetreden tijdens het contact opnemen met de service. Probeer het later opnieuw.</value>
+  </data>
+  <data name="errorSessionExpired" xml:space="preserve">
+    <value>Uw sessie is verlopen en u bent afgemeld. Meld u opnieuw aan.</value>
+  </data>
+  <data name="errorTitle" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="ExpenseReceiptSubmitError" xml:space="preserve">
+    <value>Dit onkostentype kan niet zonder betalingsbewijs worden verzonden. Voeg een betalingsbewijs toe en probeer de onkostenpost opnieuw te verzenden.</value>
+    <comment>Error thrown when user tries to submit an expense without receipt attach that requires one.</comment>
+  </data>
+  <data name="expenseSaved" xml:space="preserve">
+    <value>Opgeslagen</value>
+  </data>
+  <data name="ExternalComments" xml:space="preserve">
+    <value>Externe reacties</value>
+  </data>
+  <data name="GettingYourInfoDotDotDot" xml:space="preserve">
+    <value>Uw gegevens worden geladen...</value>
+  </data>
+  <data name="HereAreSkillsOnYourProfile" xml:space="preserve">
+    <value>Hier zijn de vaardigheden in uw profiel. U kunt uw vaardigheden bijwerken of een nieuwe vaardigheid toevoegen.</value>
+  </data>
+  <data name="HeresWorkThatFits" xml:space="preserve">
+    <value>Hier is werk dat bij uw ervaring en voorkeuren past.</value>
+  </data>
+  <data name="inProcess" xml:space="preserve">
+    <value>Wordt uitgevoerd</value>
+  </data>
+  <data name="InternalComments" xml:space="preserve">
+    <value>Interne reacties</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>U kunt alleen positieve getallen invoeren voor een tijdsvermelding die een duur aangeeft. Probeer het opnieuw met een positief getal in de indeling UU:mm.</value>
+  </data>
+  <data name="InYourConnections" xml:space="preserve">
+    <value>In uw verbindingen</value>
+  </data>
+  <data name="ItSeemsProfileOutOfDateWouldYouUpdate" xml:space="preserve">
+    <value>Het lijkt erop dat uw profiel verouderd is. Wilt u het bijwerken?</value>
+  </data>
+  <data name="ItSeemsYourProfileIsOutOfDate" xml:space="preserve">
+    <value>Het lijkt erop dat uw profiel verouderd is. Wij hebben het volgende voor u:</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Locatie</value>
+  </data>
+  <data name="LocationUppercase" xml:space="preserve">
+    <value>LOCATIE</value>
+  </data>
+  <data name="LoggingInPleaseWait" xml:space="preserve">
+    <value>Bezig met aanmelden. Een ogenblik geduld...</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Aanmelden</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Afmelden</value>
+  </data>
+  <data name="LogOutOk" xml:space="preserve">
+    <value>De sessie is gesloten.</value>
+  </data>
+  <data name="messageTitle" xml:space="preserve">
+    <value>Bericht</value>
+  </data>
+  <data name="MonthLowercase" xml:space="preserve">
+    <value>maand</value>
+  </data>
+  <data name="MonthsLowercase" xml:space="preserve">
+    <value>maanden</value>
+  </data>
+  <data name="moreDotDotDot" xml:space="preserve">
+    <value>meer...</value>
+  </data>
+  <data name="MyConnections" xml:space="preserve">
+    <value>Mijn verbindingen</value>
+  </data>
+  <data name="MyExpenses" xml:space="preserve">
+    <value>Mijn onkosten</value>
+  </data>
+  <data name="MySkills" xml:space="preserve">
+    <value>MIJN VAARDIGHEDEN</value>
+  </data>
+  <data name="MyTime" xml:space="preserve">
+    <value>Mijn tijd</value>
+  </data>
+  <data name="NewSkills" xml:space="preserve">
+    <value>NIEUWE VAARDIGHEDEN</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="NoEntries" xml:space="preserve">
+    <value>Er zijn geen vermeldingen gevonden.</value>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>We kunnen geen verbinding met de server maken. Probeer het later opnieuw.</value>
+  </data>
+  <data name="NoRequirements" xml:space="preserve">
+    <value>Geen vereisten</value>
+  </data>
+  <data name="NoResultsFound" xml:space="preserve">
+    <value>Er zijn geen resultaten gevonden.</value>
+  </data>
+  <data name="notApplicable" xml:space="preserve">
+    <value>Niet van toepassing</value>
+  </data>
+  <data name="NoTeamMembers" xml:space="preserve">
+    <value>Geen teamleden</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notities</value>
+  </data>
+  <data name="NoWorkCurrently" xml:space="preserve">
+    <value>Momenteel is er geen werk beschikbaar. Controleer later opnieuw.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Overig</value>
+  </data>
+  <data name="OverviewUppercase" xml:space="preserve">
+    <value>OVERZICHT</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Betaald</value>
+  </data>
+  <data name="PleaseEnterYourCRMURL" xml:space="preserve">
+    <value>Voer de URL voor uw Microsoft Dynamics CRM-server in.</value>
+  </data>
+  <data name="PleaseLogInToYourCRMServer" xml:space="preserve">
+    <value>Meld u aan bij uw Microsoft Dynamics CRM-server om verder te gaan.</value>
+  </data>
+  <data name="PleaseSelectSkill" xml:space="preserve">
+    <value>Selecteer een vaardigheid.</value>
+  </data>
+  <data name="PleaseWaitWhileWeSearchDotDotDot" xml:space="preserve">
+    <value>Even geduld terwijl wij zoeken naar beschikbare functies…</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Positie:</value>
+  </data>
+  <data name="Posted" xml:space="preserve">
+    <value>Geboekt</value>
+  </data>
+  <data name="ProcessingDotDotDot" xml:space="preserve">
+    <value>Verwerken...</value>
+  </data>
+  <data name="Proficiency" xml:space="preserve">
+    <value>Deskundigheid</value>
+  </data>
+  <data name="proficiencyBySystem" xml:space="preserve">
+    <value>Deskundigheid vastgesteld door het systeem.</value>
+  </data>
+  <data name="proficiencyByUser" xml:space="preserve">
+    <value>Deskundigheid vastgesteld door de gebruiker. De deskundigheid volgens het systeem is</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profiel</value>
+  </data>
+  <data name="ProfileColon" xml:space="preserve">
+    <value>Profiel:</value>
+  </data>
+  <data name="ProfileLowercase" xml:space="preserve">
+    <value>profiel</value>
+  </data>
+  <data name="ProfileUpdate" xml:space="preserve">
+    <value>Profielupdate</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ProjectTask" xml:space="preserve">
+    <value>Projecttaak</value>
+  </data>
+  <data name="ReallySignOut" xml:space="preserve">
+    <value>Weet u zeker dat u zich wilt afmelden?</value>
+  </data>
+  <data name="Recall" xml:space="preserve">
+    <value>Intrekken</value>
+  </data>
+  <data name="RecallError" xml:space="preserve">
+    <value>Het item kan niet worden ingetrokken. Controleer de gegevens of probeer het later opnieuw.</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>Betalingsbewijzen</value>
+  </data>
+  <data name="ReceiptsDirName" xml:space="preserve">
+    <value>ExpenseReceipts</value>
+    <comment>Directory name used when saving expense receipts.</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Vernieuwen</value>
+  </data>
+  <data name="RefreshLowercase" xml:space="preserve">
+    <value>vernieuwen</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Geweigerd</value>
+  </data>
+  <data name="RequirementsUppercase" xml:space="preserve">
+    <value>VEREISTEN</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>nl-NL</value>
+    <comment>Do Not Localize. Language code only</comment>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>Omzetbelasting</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Concept</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Het item kan niet worden opgeslagen. Controleer de gegevens of probeer het later opnieuw.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="SearchInFindWork" xml:space="preserve">
+    <value>Zoeken in Project Finder Mobile</value>
+  </data>
+  <data name="SearchingDotDotDot" xml:space="preserve">
+    <value>Zoeken...</value>
+  </data>
+  <data name="SearchLowercase" xml:space="preserve">
+    <value>zoeken</value>
+  </data>
+  <data name="SearchUppercase" xml:space="preserve">
+    <value>ZOEKEN</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selecteren</value>
+  </data>
+  <data name="SelectProficiency" xml:space="preserve">
+    <value>Deskundigheid selecteren</value>
+  </data>
+  <data name="SelectSkill" xml:space="preserve">
+    <value>Een vaardigheid selecteren</value>
+  </data>
+  <data name="SetProficiencyForSkillsToUpdate" xml:space="preserve">
+    <value>Stel de deskundigheid in voor de vaardigheid die u wilt bijwerken.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="settingsDescription" xml:space="preserve">
+    <value>1. Voer de URL van de Dynamics CRM-server in en klik vervolgens op Aanmelden.
+2. Voer uw referenties in op het volgende scherm om het aanmeldingsproces te voltooien.</value>
+  </data>
+  <data name="ShowAllProjects" xml:space="preserve">
+    <value>Alle projecten weergeven</value>
+  </data>
+  <data name="ShowMyProjects" xml:space="preserve">
+    <value>Mijn projecten weergeven</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Afmelden</value>
+  </data>
+  <data name="Skill" xml:space="preserve">
+    <value>Vaardigheid</value>
+  </data>
+  <data name="SorrySkillSelectionNotSubmitted" xml:space="preserve">
+    <value>Uw vaardigheidsselectie kon helaas niet worden verzonden. Probeer het later opnieuw.</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sorteren</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sorteren op:</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Verzenden</value>
+  </data>
+  <data name="SubmitError" xml:space="preserve">
+    <value>Het item kan niet worden verzonden. Controleer de gegevens of probeer het later opnieuw.</value>
+  </data>
+  <data name="SubmitLowercase" xml:space="preserve">
+    <value>verzenden</value>
+    <comment>submit in lowercase</comment>
+  </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Verzonden</value>
+  </data>
+  <data name="SuggestProfileUpdates" xml:space="preserve">
+    <value>Profielupdates voorstellen</value>
+  </data>
+  <data name="TeamUppercase" xml:space="preserve">
+    <value>TEAM</value>
+  </data>
+  <data name="TextSizeLimitedTo" xml:space="preserve">
+    <value>Tekst mag maximaal {0} tekens lang zijn.</value>
+    <comment>Error message when the user has entered more text than is allowed. {Placeholder="{0}"} Placeholder 0 is the number of allowed characters</comment>
+  </data>
+  <data name="ThereAreNoSkillsOnYourProfile" xml:space="preserve">
+    <value>Er zijn geen vaardigheden in uw profiel. U kunt een vaardigheid toevoegen door op Vaardigheid toevoegen te klikken.</value>
+  </data>
+  <data name="TimeEntries" xml:space="preserve">
+    <value>Tijdsvermeldingen</value>
+  </data>
+  <data name="TimeExceeded" xml:space="preserve">
+    <value>Tijdvermeldingen voor deze datum kunnen niet langer zijn dan 24 uur.</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>naar</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UnsavedDataWarning" xml:space="preserve">
+    <value>Uw niet-opgeslagen gegevens gaan verloren. Weet u zeker dat u al uw wijzigingen ongedaan wilt maken?</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Bijwerken</value>
+  </data>
+  <data name="UpdatedSkills" xml:space="preserve">
+    <value>BIJGEWERKTE VAARDIGHEDEN</value>
+  </data>
+  <data name="UpdateLowercase" xml:space="preserve">
+    <value>bijwerken</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Weergeven</value>
+  </data>
+  <data name="WelcomeComma" xml:space="preserve">
+    <value>Welkom,</value>
+  </data>
+  <data name="YearLowercase" xml:space="preserve">
+    <value>jaar</value>
+  </data>
+  <data name="YearsLowercase" xml:space="preserve">
+    <value>jaren</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="YouHaveNotUpdated" xml:space="preserve">
+    <value>U hebt geen vaardigheden bijgewerkt.</value>
+  </data>
+  <data name="YourApplicationSent" xml:space="preserve">
+    <value>Uw sollicitatie is verzonden.
+
+Project:</value>
+  </data>
+  <data name="YourOrganizationHasNoSkillsDefined" xml:space="preserve">
+    <value>Uw bedrijf heeft geen vaardigheden of deskundigheden gedefinieerd. Neem contact op met de systeembeheerder.</value>
+  </data>
+  <data name="YourProfileIsUpToDate" xml:space="preserve">
+    <value>Uw profiel is bijgewerkt.</value>
+  </data>
+  <data name="YourSkillSelectionSubmitted" xml:space="preserve">
+    <value>Uw vaardigheidsselectie is verzonden om te worden bijgewerkt.</value>
+  </data>
+  <data name="Justification" xml:space="preserve">
+    <value>\nRechtvaardiging: {0}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is the justification text</comment>
+  </data>
+  <data name="PleaseSelectProficiency" xml:space="preserve">
+    <value>Selecteer een deskundigheid</value>
+  </data>
+  <data name="DurationHours" xml:space="preserve">
+    <value>{0}u</value>
+    <comment>Displays time in hours only. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours</comment>
+  </data>
+  <data name="DurationHoursMinute" xml:space="preserve">
+    <value>{0}u {1}m</value>
+    <comment>Displays time in hours and minutes. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours,  {Placeholder="{1}"} Placeholder 1 is an integer to representing the number of minutes</comment>
+  </data>
+  <data name="BySkillsLowercase" xml:space="preserve">
+    <value>op vaardigheden</value>
+  </data>
+  <data name="HeresWorkThatFitsBySkill" xml:space="preserve">
+    <value>Hier is werk dat bij uw vaardigheden past.</value>
+  </data>
+  <data name="PhoneUpdateNeeded" xml:space="preserve">
+    <value>De appversie voor de telefoon is vroeger dan de serverversie. Werk deze telefoonapp bij.</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Vaardigheden</value>
+  </data>
+  <data name="signoutLowercase" xml:space="preserve">
+    <value>afmelden</value>
+    <comment>sign out in lowercase</comment>
+  </data>
+  <data name="sortLowercase" xml:space="preserve">
+    <value>sorteren</value>
+    <comment>sort in lowercase</comment>
+  </data>
+  <data name="ApplicationSentMessage" xml:space="preserve">
+    <value>Uw sollicitatie is ingediend.\n\nProject: {0}\nPositie: {1}</value>
+    <comment>Application sent confirmation text. {Placeholder="{0}"} Placeholder 0 is the project name, {Placeholder="{1}"} Placeholder 1 is the position name</comment>
+  </data>
+  <data name="CollaboratorFullName" xml:space="preserve">
+    <value>{0} - {1}: {2}</value>
+    <comment>Collaborator full name. {Placeholder="{0}"} Placeholder 0 is the title, {Placeholder="{1}"} Placeholder 1 is the name, {Placeholder="{2}"} Placeholder 2 is the weight</comment>
+  </data>
+  <data name="DurationContainer" xml:space="preserve">
+    <value>({0})</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration</comment>
+  </data>
+  <data name="DurationLessThanOneDay" xml:space="preserve">
+    <value>&lt; 1 dag</value>
+    <comment>Less than one day</comment>
+  </data>
+  <data name="FullDuration" xml:space="preserve">
+    <value>{0} tot {1} {2}</value>
+    <comment>Work Duration text. {Placeholder="{0}"} Placeholder 0 is the work start date, {Placeholder="{1}"} Placeholder 1 is the work end date, {Placeholder="{2}"} Placeholder 2 is the duration</comment>
+  </data>
+  <data name="MoreReasonsText" xml:space="preserve">
+    <value>{0} meer...</value>
+    <comment>Additional hidden reasons text, implies more options. {Placeholder="{0}"} Placeholder 0 is number of skills not shown</comment>
+  </data>
+  <data name="ProficiencyNoteText" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Proficiency note text. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name</comment>
+  </data>
+  <data name="ProficiencyNoteTextJustification" xml:space="preserve">
+    <value>{0} {1}{2}</value>
+    <comment>Proficiency note text with justification. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name, {Placeholder="{2}"} Placeholder 2 is the justification</comment>
+  </data>
+  <data name="RoleAndProject" xml:space="preserve">
+    <value>{0}|{1}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is role name, {Placeholder="{1}"} Placeholder 1 is project name</comment>
+  </data>
+  <data name="Span" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration, {Placeholder="{1}"} Placeholder 1 is day or days, month or months, etc </comment>
+  </data>
+  <data name="UserFirstNameLastName" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Full name {Placeholder="{0}"} Placeholder 0 is given name, {Placeholder="{1}"} Placeholder 1 is family name</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Info over</value>
+  </data>
+</root>

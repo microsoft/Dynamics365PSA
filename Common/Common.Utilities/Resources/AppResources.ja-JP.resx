@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>取引先企業の設定</value>
+  </data>
+  <data name="AddProficiency" xml:space="preserve">
+    <value>能力の追加</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="AddSkill" xml:space="preserve">
+    <value>スキルの追加</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>金額</value>
+  </data>
+  <data name="AnErrorOccurredWhileGettingYourWork" xml:space="preserve">
+    <value>作業の推奨事項の取得中にエラーが発生しました。後でやり直してください。</value>
+  </data>
+  <data name="ApplicationSent" xml:space="preserve">
+    <value>応募が送信されました</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="ApplyingForJob" xml:space="preserve">
+    <value>このジョブに応募しています...</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>承認済み</value>
+  </data>
+  <data name="ByCompatibilityLowercase" xml:space="preserve">
+    <value>適合性別</value>
+  </data>
+  <data name="ByDurationLowercase" xml:space="preserve">
+    <value>期間別</value>
+  </data>
+  <data name="ByEarliestStartLowercase" xml:space="preserve">
+    <value>開始の早い順</value>
+  </data>
+  <data name="ByMyConnectionsLowercase" xml:space="preserve">
+    <value>自分のつながり別</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="CancelLowercase" xml:space="preserve">
+    <value>キャンセル</value>
+    <comment>cancel in lowercase</comment>
+  </data>
+  <data name="CaptureReceipt" xml:space="preserve">
+    <value>領収書の追加</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>カテゴリのない経費は保存できません。カテゴリを選択してやり直してください。</value>
+    <comment>Error when user hasn't entered an expense cateogory.</comment>
+  </data>
+  <data name="ChangeExpenseTypeWarning" xml:space="preserve">
+    <value>経費のカテゴリを変更すると、次の情報が失われる可能性があります: {0}。
+続行しますか?</value>
+    <comment>Error message indicating some data will be lost if the user changes expense category. {Placeholder="{0}"} Placeholder 0 is a string of the data that will be lost</comment>
+  </data>
+  <data name="Compatibility" xml:space="preserve">
+    <value>適合性</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>接続先</value>
+  </data>
+  <data name="ContactingYourCompanyDotDotDot" xml:space="preserve">
+    <value>会社にアクセスしています...</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>新規</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>通貨</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>顧客</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="DateInvalidWarning" xml:space="preserve">
+    <value>指定された日付は無効です。</value>
+  </data>
+  <data name="DayLowercase" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="DaysLowercase" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="DefaultDirectory" xml:space="preserve">
+    <value>myDirectory</value>
+    <comment>Default directory to give when there is none provided</comment>
+  </data>
+  <data name="DefaultFilename" xml:space="preserve">
+    <value>myFile</value>
+    <comment>Default filename to give when there is none provided</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>選択した項目が削除されます。</value>
+  </data>
+  <data name="DeleteWarningExpense" xml:space="preserve">
+    <value>選択した経費が削除されます。</value>
+    <comment>Confirmation message when deleting expenses.</comment>
+  </data>
+  <data name="DeleteWarningTime" xml:space="preserve">
+    <value>選択した時間入力が削除されます。</value>
+    <comment>Confirmation message when deleting time entries.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="DescriptionUppercase" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>破棄</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>下書き</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>期間 (HH:mm)</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="EarliestStart" xml:space="preserve">
+    <value>最も早い開始</value>
+  </data>
+  <data name="endPoint" xml:space="preserve">
+    <value>CRM Online アドレス</value>
+  </data>
+  <data name="errorAuthenticationCancelled" xml:space="preserve">
+    <value>認証が取り消されました。アプリを試用するには、CRM サーバーにサインインしてください。</value>
+  </data>
+  <data name="errorAuthenticationFailed" xml:space="preserve">
+    <value>サーバーでの認証中にエラーが発生しました。後でもう一度お試しください。</value>
+  </data>
+  <data name="errorCrmRequestNotSupported" xml:space="preserve">
+    <value>プロジェクト サービス ソリューションが正しく設定されていない可能性があります。管理者にお問い合わせください。</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>インターネットに接続されていません。接続を確認してから再度お試しください。</value>
+  </data>
+  <data name="errorOAuthUrlRetrieveFailed" xml:space="preserve">
+    <value>指定されたサーバーに接続できません。CRM サーバーの URL またはインターネット接続を確認してから、やり直してください。</value>
+  </data>
+  <data name="ErrorOpeningFile" xml:space="preserve">
+    <value>次のファイルを開けませんでした: {0}</value>
+    <comment>Error message when a file I/O open operation failed. {Placeholder="{0}"} Placeholder 0 is the name of the file that could not be opened</comment>
+  </data>
+  <data name="errorRestCall" xml:space="preserve">
+    <value>この操作の処理中にサーバーでエラーが発生しました。</value>
+  </data>
+  <data name="errorRetrievePrivilegeForUser" xml:space="preserve">
+    <value>アプリケーションにアクセスする権限がありません。管理者にお問い合わせください。</value>
+  </data>
+  <data name="errorServiceAccessDenied" xml:space="preserve">
+    <value>申し訳ありません。サービスにアクセスする権限がありません。もう一度サインインをお試しください。</value>
+  </data>
+  <data name="errorServiceContactAdmin" xml:space="preserve">
+    <value>申し訳ありません。サービスへのアクセス中にエラーが発生しました。システム管理者にお問い合わせください。エラー詳細:\n\n{0}</value>
+    <comment>Error when the app is not able to connect to your dynamics instance. {Placeholder="{0}"} Placeholder 0 is a string containing details of the error</comment>
+  </data>
+  <data name="errorServiceUnknown" xml:space="preserve">
+    <value>申し訳ありません。サービスへのアクセス中にエラーが発生しました。後でもう一度お試しください。</value>
+  </data>
+  <data name="errorSessionExpired" xml:space="preserve">
+    <value>セッションが期限切れになり、サインアウトされました。再度サインインしてください。</value>
+  </data>
+  <data name="errorTitle" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="ExpenseReceiptSubmitError" xml:space="preserve">
+    <value>領収書のない経費の種類は送信できません。領収書を添付し、経費の送信をやり直してください。</value>
+    <comment>Error thrown when user tries to submit an expense without receipt attach that requires one.</comment>
+  </data>
+  <data name="expenseSaved" xml:space="preserve">
+    <value>保存済み</value>
+  </data>
+  <data name="ExternalComments" xml:space="preserve">
+    <value>外部コメント</value>
+  </data>
+  <data name="GettingYourInfoDotDotDot" xml:space="preserve">
+    <value>情報を取得しています...</value>
+  </data>
+  <data name="HereAreSkillsOnYourProfile" xml:space="preserve">
+    <value>プロファイルにあるスキルは次のとおりです。スキルの更新または新しいスキルの追加を実行できます。</value>
+  </data>
+  <data name="HeresWorkThatFits" xml:space="preserve">
+    <value>経験と希望に適合した作業は次のとおりです。</value>
+  </data>
+  <data name="inProcess" xml:space="preserve">
+    <value>処理中</value>
+  </data>
+  <data name="InternalComments" xml:space="preserve">
+    <value>内部コメント</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>時間入力の期間には正の数値のみを入力できます。HH:mm 形式の正の数値を使ってやり直してください。</value>
+  </data>
+  <data name="InYourConnections" xml:space="preserve">
+    <value>つながりの中</value>
+  </data>
+  <data name="ItSeemsProfileOutOfDateWouldYouUpdate" xml:space="preserve">
+    <value>プロファイルが最新ではないようです。更新しますか?</value>
+  </data>
+  <data name="ItSeemsYourProfileIsOutOfDate" xml:space="preserve">
+    <value>プロファイルが最新ではないようです。次の情報が検出されました:</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>場所</value>
+  </data>
+  <data name="LocationUppercase" xml:space="preserve">
+    <value>場所</value>
+  </data>
+  <data name="LoggingInPleaseWait" xml:space="preserve">
+    <value>サインインしています。しばらくお待ちください...</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>サインイン</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>サインアウト</value>
+  </data>
+  <data name="LogOutOk" xml:space="preserve">
+    <value>セッションは正常に閉じられました。</value>
+  </data>
+  <data name="messageTitle" xml:space="preserve">
+    <value>メッセージ</value>
+  </data>
+  <data name="MonthLowercase" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="MonthsLowercase" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="moreDotDotDot" xml:space="preserve">
+    <value>詳細...</value>
+  </data>
+  <data name="MyConnections" xml:space="preserve">
+    <value>自分のつながり</value>
+  </data>
+  <data name="MyExpenses" xml:space="preserve">
+    <value>自分の経費</value>
+  </data>
+  <data name="MySkills" xml:space="preserve">
+    <value>自分のスキル</value>
+  </data>
+  <data name="MyTime" xml:space="preserve">
+    <value>自分の時間</value>
+  </data>
+  <data name="NewSkills" xml:space="preserve">
+    <value>新しいスキル</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="NoEntries" xml:space="preserve">
+    <value>エントリが見つかりませんでした。</value>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>サーバーに接続できません。後でもう一度やり直してください。</value>
+  </data>
+  <data name="NoRequirements" xml:space="preserve">
+    <value>要件なし</value>
+  </data>
+  <data name="NoResultsFound" xml:space="preserve">
+    <value>結果が見つかりませんでした。</value>
+  </data>
+  <data name="notApplicable" xml:space="preserve">
+    <value>適用なし</value>
+  </data>
+  <data name="NoTeamMembers" xml:space="preserve">
+    <value>チーム メンバーなし</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>メモ</value>
+  </data>
+  <data name="NoWorkCurrently" xml:space="preserve">
+    <value>現在使用できる作業はありません。後でもう一度確認してください。</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="OverviewUppercase" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>支払済み</value>
+  </data>
+  <data name="PleaseEnterYourCRMURL" xml:space="preserve">
+    <value>Microsoft Dynamics CRM サーバー URL を入力してください。</value>
+  </data>
+  <data name="PleaseLogInToYourCRMServer" xml:space="preserve">
+    <value>Microsoft Dynamics CRM サーバーにサインインして続行します。</value>
+  </data>
+  <data name="PleaseSelectSkill" xml:space="preserve">
+    <value>スキルを選択します。</value>
+  </data>
+  <data name="PleaseWaitWhileWeSearchDotDotDot" xml:space="preserve">
+    <value>空きがあるジョブを検索しています。しばらくお待ちください...</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>ポジション:</value>
+  </data>
+  <data name="Posted" xml:space="preserve">
+    <value>投稿済み</value>
+  </data>
+  <data name="ProcessingDotDotDot" xml:space="preserve">
+    <value>処理中...</value>
+  </data>
+  <data name="Proficiency" xml:space="preserve">
+    <value>能力</value>
+  </data>
+  <data name="proficiencyBySystem" xml:space="preserve">
+    <value>システムによって確認された能力。</value>
+  </data>
+  <data name="proficiencyByUser" xml:space="preserve">
+    <value>ユーザーによって確認された能力。システムで確認された能力は次のとおりです</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>プロファイル</value>
+  </data>
+  <data name="ProfileColon" xml:space="preserve">
+    <value>プロファイル:</value>
+  </data>
+  <data name="ProfileLowercase" xml:space="preserve">
+    <value>プロファイル</value>
+  </data>
+  <data name="ProfileUpdate" xml:space="preserve">
+    <value>プロファイルの更新</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>プロジェクト</value>
+  </data>
+  <data name="ProjectTask" xml:space="preserve">
+    <value>プロジェクト タスク</value>
+  </data>
+  <data name="ReallySignOut" xml:space="preserve">
+    <value>サインアウトしますか?</value>
+  </data>
+  <data name="Recall" xml:space="preserve">
+    <value>取り消し</value>
+  </data>
+  <data name="RecallError" xml:space="preserve">
+    <value>アイテムを取り消すことができません。データを確認するか、後でやり直してください。</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>領収書</value>
+  </data>
+  <data name="ReceiptsDirName" xml:space="preserve">
+    <value>ExpenseReceipts</value>
+    <comment>Directory name used when saving expense receipts.</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>最新の情報に更新</value>
+  </data>
+  <data name="RefreshLowercase" xml:space="preserve">
+    <value>最新の情報に更新</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>拒否済み</value>
+  </data>
+  <data name="RequirementsUppercase" xml:space="preserve">
+    <value>要件</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ja-JP</value>
+    <comment>Do Not Localize. Language code only</comment>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>売上税</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>下書き</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>アイテムを保存できません。データを確認するか、後でやり直してください。</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="SearchInFindWork" xml:space="preserve">
+    <value>Project Finder Mobile での検索</value>
+  </data>
+  <data name="SearchingDotDotDot" xml:space="preserve">
+    <value>検索中...</value>
+  </data>
+  <data name="SearchLowercase" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="SearchUppercase" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="SelectProficiency" xml:space="preserve">
+    <value>能力の選択</value>
+  </data>
+  <data name="SelectSkill" xml:space="preserve">
+    <value>スキルの選択</value>
+  </data>
+  <data name="SetProficiencyForSkillsToUpdate" xml:space="preserve">
+    <value>更新するスキルの能力を設定します。</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="settingsDescription" xml:space="preserve">
+    <value>1. Dynamics CRM サーバーの URL を入力し、[サインイン] をクリックします。
+2. 次の画面で資格情報を入力してサインイン処理を完了します。</value>
+  </data>
+  <data name="ShowAllProjects" xml:space="preserve">
+    <value>プロジェクトをすべて表示</value>
+  </data>
+  <data name="ShowMyProjects" xml:space="preserve">
+    <value>自分のプロジェクトを表示</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>サインアウト</value>
+  </data>
+  <data name="Skill" xml:space="preserve">
+    <value>スキル</value>
+  </data>
+  <data name="SorrySkillSelectionNotSubmitted" xml:space="preserve">
+    <value>申し訳ありません。選択したスキルを送信できませんでした。後でもう一度お試しください。</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>並べ替え</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>並べ替えの基準:</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="SubmitError" xml:space="preserve">
+    <value>アイテムを送信できません。データを確認するか、後でやり直してください。</value>
+  </data>
+  <data name="SubmitLowercase" xml:space="preserve">
+    <value>送信</value>
+    <comment>submit in lowercase</comment>
+  </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>送信済み</value>
+  </data>
+  <data name="SuggestProfileUpdates" xml:space="preserve">
+    <value>プロファイル更新の提案</value>
+  </data>
+  <data name="TeamUppercase" xml:space="preserve">
+    <value>チーム</value>
+  </data>
+  <data name="TextSizeLimitedTo" xml:space="preserve">
+    <value>テキストに使用できる文字数は {0} 文字以下です。</value>
+    <comment>Error message when the user has entered more text than is allowed. {Placeholder="{0}"} Placeholder 0 is the number of allowed characters</comment>
+  </data>
+  <data name="ThereAreNoSkillsOnYourProfile" xml:space="preserve">
+    <value>プロファイルにはスキルが追加されていません。スキルを追加するには、[スキルの追加] をクリックしてください。</value>
+  </data>
+  <data name="TimeEntries" xml:space="preserve">
+    <value>時間入力</value>
+  </data>
+  <data name="TimeExceeded" xml:space="preserve">
+    <value>この日付の時間入力は最大 24 時間です。</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>種類</value>
+  </data>
+  <data name="UnsavedDataWarning" xml:space="preserve">
+    <value>保存されていない変更は失われます。変更をすべて破棄しますか?</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="UpdatedSkills" xml:space="preserve">
+    <value>更新されたスキル</value>
+  </data>
+  <data name="UpdateLowercase" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>ビュー</value>
+  </data>
+  <data name="WelcomeComma" xml:space="preserve">
+    <value>ようこそ、</value>
+  </data>
+  <data name="YearLowercase" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="YearsLowercase" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="YouHaveNotUpdated" xml:space="preserve">
+    <value>スキルの更新をまだ行っていません。</value>
+  </data>
+  <data name="YourApplicationSent" xml:space="preserve">
+    <value>応募は正常に送信されました。
+
+プロジェクト:</value>
+  </data>
+  <data name="YourOrganizationHasNoSkillsDefined" xml:space="preserve">
+    <value>組織にスキルや能力が定義されていません。システム管理者にお問い合わせください。</value>
+  </data>
+  <data name="YourProfileIsUpToDate" xml:space="preserve">
+    <value>プロファイルは最新です。</value>
+  </data>
+  <data name="YourSkillSelectionSubmitted" xml:space="preserve">
+    <value>選択したスキルが更新用に送信されました。</value>
+  </data>
+  <data name="Justification" xml:space="preserve">
+    <value>\n理由: {0}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is the justification text</comment>
+  </data>
+  <data name="PleaseSelectProficiency" xml:space="preserve">
+    <value>能力を 1 つ選択してください</value>
+  </data>
+  <data name="DurationHours" xml:space="preserve">
+    <value>{0}h</value>
+    <comment>Displays time in hours only. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours</comment>
+  </data>
+  <data name="DurationHoursMinute" xml:space="preserve">
+    <value>{0}h {1}m</value>
+    <comment>Displays time in hours and minutes. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours,  {Placeholder="{1}"} Placeholder 1 is an integer to representing the number of minutes</comment>
+  </data>
+  <data name="BySkillsLowercase" xml:space="preserve">
+    <value>スキル別</value>
+  </data>
+  <data name="HeresWorkThatFitsBySkill" xml:space="preserve">
+    <value>スキルに適合した作業は次のとおりです。</value>
+  </data>
+  <data name="PhoneUpdateNeeded" xml:space="preserve">
+    <value>スマートフォン アプリのバージョンがサーバーのバージョンよりも前のものです。このスマートフォン アプリを更新してください。</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>スキル</value>
+  </data>
+  <data name="signoutLowercase" xml:space="preserve">
+    <value>サインアウト</value>
+    <comment>sign out in lowercase</comment>
+  </data>
+  <data name="sortLowercase" xml:space="preserve">
+    <value>並べ替え</value>
+    <comment>sort in lowercase</comment>
+  </data>
+  <data name="ApplicationSentMessage" xml:space="preserve">
+    <value>応募は正常に送信されました。\n\nプロジェクト: {0}\nポジション: {1}</value>
+    <comment>Application sent confirmation text. {Placeholder="{0}"} Placeholder 0 is the project name, {Placeholder="{1}"} Placeholder 1 is the position name</comment>
+  </data>
+  <data name="CollaboratorFullName" xml:space="preserve">
+    <value>{0} - {1}: {2}</value>
+    <comment>Collaborator full name. {Placeholder="{0}"} Placeholder 0 is the title, {Placeholder="{1}"} Placeholder 1 is the name, {Placeholder="{2}"} Placeholder 2 is the weight</comment>
+  </data>
+  <data name="DurationContainer" xml:space="preserve">
+    <value>({0})</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration</comment>
+  </data>
+  <data name="DurationLessThanOneDay" xml:space="preserve">
+    <value>1 日未満</value>
+    <comment>Less than one day</comment>
+  </data>
+  <data name="FullDuration" xml:space="preserve">
+    <value>{0} ～ {1} {2}</value>
+    <comment>Work Duration text. {Placeholder="{0}"} Placeholder 0 is the work start date, {Placeholder="{1}"} Placeholder 1 is the work end date, {Placeholder="{2}"} Placeholder 2 is the duration</comment>
+  </data>
+  <data name="MoreReasonsText" xml:space="preserve">
+    <value>{0} その他 ...</value>
+    <comment>Additional hidden reasons text, implies more options. {Placeholder="{0}"} Placeholder 0 is number of skills not shown</comment>
+  </data>
+  <data name="ProficiencyNoteText" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Proficiency note text. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name</comment>
+  </data>
+  <data name="ProficiencyNoteTextJustification" xml:space="preserve">
+    <value>{0} {1}{2}</value>
+    <comment>Proficiency note text with justification. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name, {Placeholder="{2}"} Placeholder 2 is the justification</comment>
+  </data>
+  <data name="RoleAndProject" xml:space="preserve">
+    <value>{0}|{1}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is role name, {Placeholder="{1}"} Placeholder 1 is project name</comment>
+  </data>
+  <data name="Span" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration, {Placeholder="{1}"} Placeholder 1 is day or days, month or months, etc </comment>
+  </data>
+  <data name="UserFirstNameLastName" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Full name {Placeholder="{0}"} Placeholder 0 is given name, {Placeholder="{1}"} Placeholder 1 is family name</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>情報</value>
+  </data>
+</root>

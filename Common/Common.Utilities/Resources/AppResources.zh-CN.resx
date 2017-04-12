@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>帐户设置</value>
+  </data>
+  <data name="AddProficiency" xml:space="preserve">
+    <value>添加专长</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="AddSkill" xml:space="preserve">
+    <value>添加技能</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="AnErrorOccurredWhileGettingYourWork" xml:space="preserve">
+    <value>获取您的工作建议时出现错误。请稍后重试。</value>
+  </data>
+  <data name="ApplicationSent" xml:space="preserve">
+    <value>申请已发送</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>申请</value>
+  </data>
+  <data name="ApplyingForJob" xml:space="preserve">
+    <value>正在申请此职位...</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>已审批</value>
+  </data>
+  <data name="ByCompatibilityLowercase" xml:space="preserve">
+    <value>按兼容性</value>
+  </data>
+  <data name="ByDurationLowercase" xml:space="preserve">
+    <value>按持续时间</value>
+  </data>
+  <data name="ByEarliestStartLowercase" xml:space="preserve">
+    <value>按最早开始时间</value>
+  </data>
+  <data name="ByMyConnectionsLowercase" xml:space="preserve">
+    <value>按我的连接</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="CancelLowercase" xml:space="preserve">
+    <value>取消</value>
+    <comment>cancel in lowercase</comment>
+  </data>
+  <data name="CaptureReceipt" xml:space="preserve">
+    <value>添加收据</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>您无法保存没有类别的费用。请选择类别并重试。</value>
+    <comment>Error when user hasn't entered an expense cateogory.</comment>
+  </data>
+  <data name="ChangeExpenseTypeWarning" xml:space="preserve">
+    <value>如果更改费用类别，以下信息将丢失: {0}。
+是否继续?</value>
+    <comment>Error message indicating some data will be lost if the user changes expense category. {Placeholder="{0}"} Placeholder 0 is a string of the data that will be lost</comment>
+  </data>
+  <data name="Compatibility" xml:space="preserve">
+    <value>兼容性</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>已连接到</value>
+  </data>
+  <data name="ContactingYourCompanyDotDotDot" xml:space="preserve">
+    <value>正在联系您的公司...</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>客户</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="DateInvalidWarning" xml:space="preserve">
+    <value>指定的日期无效。</value>
+  </data>
+  <data name="DayLowercase" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DaysLowercase" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DefaultDirectory" xml:space="preserve">
+    <value>myDirectory</value>
+    <comment>Default directory to give when there is none provided</comment>
+  </data>
+  <data name="DefaultFilename" xml:space="preserve">
+    <value>myFile</value>
+    <comment>Default filename to give when there is none provided</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>选定项目将被删除。</value>
+  </data>
+  <data name="DeleteWarningExpense" xml:space="preserve">
+    <value>选定费用将被删除。</value>
+    <comment>Confirmation message when deleting expenses.</comment>
+  </data>
+  <data name="DeleteWarningTime" xml:space="preserve">
+    <value>选定的时间条目将被删除。</value>
+    <comment>Confirmation message when deleting time entries.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="DescriptionUppercase" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>放弃</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>草稿</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>持续时间 (HH:mm)</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>持续时间</value>
+  </data>
+  <data name="EarliestStart" xml:space="preserve">
+    <value>最早开始时间</value>
+  </data>
+  <data name="endPoint" xml:space="preserve">
+    <value>CRM Online 地址</value>
+  </data>
+  <data name="errorAuthenticationCancelled" xml:space="preserve">
+    <value>您已经取消了身份验证。若要使用此应用程序，请登录到您的 CRM 服务器。</value>
+  </data>
+  <data name="errorAuthenticationFailed" xml:space="preserve">
+    <value>尝试通过服务器进行身份验证时出错。请稍后重试。</value>
+  </data>
+  <data name="errorCrmRequestNotSupported" xml:space="preserve">
+    <value>您的项目服务解决方案可能未正确设置。请联系您的管理员。</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>您未连接 Internet。请检查连接，然后重试。</value>
+  </data>
+  <data name="errorOAuthUrlRetrieveFailed" xml:space="preserve">
+    <value>我们无法连接到指定服务器。请检查 CRM 服务器 URL 或您的 Internet 连接，然后重试。</value>
+  </data>
+  <data name="ErrorOpeningFile" xml:space="preserve">
+    <value>无法打开以下文件: {0}</value>
+    <comment>Error message when a file I/O open operation failed. {Placeholder="{0}"} Placeholder 0 is the name of the file that could not be opened</comment>
+  </data>
+  <data name="errorRestCall" xml:space="preserve">
+    <value>处理此操作时服务器出错。</value>
+  </data>
+  <data name="errorRetrievePrivilegeForUser" xml:space="preserve">
+    <value>您没有访问此应用程序的权限。请联系您的管理员。</value>
+  </data>
+  <data name="errorServiceAccessDenied" xml:space="preserve">
+    <value>很抱歉，您无权访问此服务。请尝试重新登录。</value>
+  </data>
+  <data name="errorServiceContactAdmin" xml:space="preserve">
+    <value>很抱歉，联系服务时出错。请联系您的管理员。错误详细信息:\n\n{0}</value>
+    <comment>Error when the app is not able to connect to your dynamics instance. {Placeholder="{0}"} Placeholder 0 is a string containing details of the error</comment>
+  </data>
+  <data name="errorServiceUnknown" xml:space="preserve">
+    <value>很抱歉，联系服务时出错。请稍后重试。</value>
+  </data>
+  <data name="errorSessionExpired" xml:space="preserve">
+    <value>您的会话已过期，您已注销。请重新登录。</value>
+  </data>
+  <data name="errorTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="ExpenseReceiptSubmitError" xml:space="preserve">
+    <value>此费用类型未包含收据，无法提交。请附加收据，然后尝试重新提交此费用。</value>
+    <comment>Error thrown when user tries to submit an expense without receipt attach that requires one.</comment>
+  </data>
+  <data name="expenseSaved" xml:space="preserve">
+    <value>已保存</value>
+  </data>
+  <data name="ExternalComments" xml:space="preserve">
+    <value>外部注释</value>
+  </data>
+  <data name="GettingYourInfoDotDotDot" xml:space="preserve">
+    <value>正在获取您的信息...</value>
+  </data>
+  <data name="HereAreSkillsOnYourProfile" xml:space="preserve">
+    <value>以下是您的个人资料中的技能信息。您可以更新您的技能或添加新技能。</value>
+  </data>
+  <data name="HeresWorkThatFits" xml:space="preserve">
+    <value>以下是适合您的经验和意向的工作。</value>
+  </data>
+  <data name="inProcess" xml:space="preserve">
+    <value>正在进行</value>
+  </data>
+  <data name="InternalComments" xml:space="preserve">
+    <value>内部注释</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>您只能为时间条目持续时间输入正数。请使用格式 HH:mm 重新输入一个正数。</value>
+  </data>
+  <data name="InYourConnections" xml:space="preserve">
+    <value>在您的联系人中</value>
+  </data>
+  <data name="ItSeemsProfileOutOfDateWouldYouUpdate" xml:space="preserve">
+    <value>您的个人资料似乎已过期。是否要更新?</value>
+  </data>
+  <data name="ItSeemsYourProfileIsOutOfDate" xml:space="preserve">
+    <value>您的个人资料似乎已过期。以下是我们为您提供的信息:</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="LocationUppercase" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="LoggingInPleaseWait" xml:space="preserve">
+    <value>正在登录。请稍候 ...</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="LogOutOk" xml:space="preserve">
+    <value>会话已成功关闭。</value>
+  </data>
+  <data name="messageTitle" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="MonthLowercase" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="MonthsLowercase" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="moreDotDotDot" xml:space="preserve">
+    <value>更多...</value>
+  </data>
+  <data name="MyConnections" xml:space="preserve">
+    <value>我的连接</value>
+  </data>
+  <data name="MyExpenses" xml:space="preserve">
+    <value>我的支出</value>
+  </data>
+  <data name="MySkills" xml:space="preserve">
+    <value>我的技能</value>
+  </data>
+  <data name="MyTime" xml:space="preserve">
+    <value>我的时间</value>
+  </data>
+  <data name="NewSkills" xml:space="preserve">
+    <value>新技能</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="NoEntries" xml:space="preserve">
+    <value>未找到任何输入。</value>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>我们在连接服务器时遇到问题。请稍后重试。</value>
+  </data>
+  <data name="NoRequirements" xml:space="preserve">
+    <value>无要求</value>
+  </data>
+  <data name="NoResultsFound" xml:space="preserve">
+    <value>未找到任何结果。</value>
+  </data>
+  <data name="notApplicable" xml:space="preserve">
+    <value>不适用</value>
+  </data>
+  <data name="NoTeamMembers" xml:space="preserve">
+    <value>无团队成员</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="NoWorkCurrently" xml:space="preserve">
+    <value>当前没有适合的工作。请稍后再次查看。</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="OverviewUppercase" xml:space="preserve">
+    <value>概述</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>已支付</value>
+  </data>
+  <data name="PleaseEnterYourCRMURL" xml:space="preserve">
+    <value>输入您的 Microsoft Dynamics CRM 服务器 URL。</value>
+  </data>
+  <data name="PleaseLogInToYourCRMServer" xml:space="preserve">
+    <value>登录到您的 Microsoft Dynamics CRM 服务器以继续。</value>
+  </data>
+  <data name="PleaseSelectSkill" xml:space="preserve">
+    <value>请选择技能。</value>
+  </data>
+  <data name="PleaseWaitWhileWeSearchDotDotDot" xml:space="preserve">
+    <value>请稍后，我们正在为您搜索适合的职位...</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>职位:</value>
+  </data>
+  <data name="Posted" xml:space="preserve">
+    <value>已发布</value>
+  </data>
+  <data name="ProcessingDotDotDot" xml:space="preserve">
+    <value>正在处理...</value>
+  </data>
+  <data name="Proficiency" xml:space="preserve">
+    <value>专长</value>
+  </data>
+  <data name="proficiencyBySystem" xml:space="preserve">
+    <value>系统确定的专长。</value>
+  </data>
+  <data name="proficiencyByUser" xml:space="preserve">
+    <value>用户确定的专长。系统认为此专长应为</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>个人资料</value>
+  </data>
+  <data name="ProfileColon" xml:space="preserve">
+    <value>个人资料:</value>
+  </data>
+  <data name="ProfileLowercase" xml:space="preserve">
+    <value>个人资料</value>
+  </data>
+  <data name="ProfileUpdate" xml:space="preserve">
+    <value>个人资料更新</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="ProjectTask" xml:space="preserve">
+    <value>项目任务</value>
+  </data>
+  <data name="ReallySignOut" xml:space="preserve">
+    <value>是否确实要注销?</value>
+  </data>
+  <data name="Recall" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="RecallError" xml:space="preserve">
+    <value>此项目无法撤消。请稍后查看数据或重试。</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>收据</value>
+  </data>
+  <data name="ReceiptsDirName" xml:space="preserve">
+    <value>ExpenseReceipts</value>
+    <comment>Directory name used when saving expense receipts.</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="RefreshLowercase" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>已拒绝</value>
+  </data>
+  <data name="RequirementsUppercase" xml:space="preserve">
+    <value>要求</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh-CN</value>
+    <comment>Do Not Localize. Language code only</comment>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>销售税</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>草稿</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>此项目无法保存。请稍后查看数据或重试。</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="SearchInFindWork" xml:space="preserve">
+    <value>在 Project Finder Mobile 中搜索</value>
+  </data>
+  <data name="SearchingDotDotDot" xml:space="preserve">
+    <value>正在搜索...</value>
+  </data>
+  <data name="SearchLowercase" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="SearchUppercase" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="SelectProficiency" xml:space="preserve">
+    <value>选择专长</value>
+  </data>
+  <data name="SelectSkill" xml:space="preserve">
+    <value>选择技能</value>
+  </data>
+  <data name="SetProficiencyForSkillsToUpdate" xml:space="preserve">
+    <value>为您要更新的技能设置专长。</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="settingsDescription" xml:space="preserve">
+    <value>1. 输入 Dynamics CRM 服务器 URL，然后单击“登录”。
+2. 在下一屏幕上输入您的凭据以完成登录过程。</value>
+  </data>
+  <data name="ShowAllProjects" xml:space="preserve">
+    <value>显示所有项目</value>
+  </data>
+  <data name="ShowMyProjects" xml:space="preserve">
+    <value>显示我的项目</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="Skill" xml:space="preserve">
+    <value>技能</value>
+  </data>
+  <data name="SorrySkillSelectionNotSubmitted" xml:space="preserve">
+    <value>很抱歉，无法提交您选择的技能。请稍后重试。</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>排序依据:</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="SubmitError" xml:space="preserve">
+    <value>此项目无法提交。请稍后查看数据或重试。</value>
+  </data>
+  <data name="SubmitLowercase" xml:space="preserve">
+    <value>提交</value>
+    <comment>submit in lowercase</comment>
+  </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>已提交</value>
+  </data>
+  <data name="SuggestProfileUpdates" xml:space="preserve">
+    <value>建议更新个人资料</value>
+  </data>
+  <data name="TeamUppercase" xml:space="preserve">
+    <value>团队</value>
+  </data>
+  <data name="TextSizeLimitedTo" xml:space="preserve">
+    <value>文本不能超过 {0} 个字符。</value>
+    <comment>Error message when the user has entered more text than is allowed. {Placeholder="{0}"} Placeholder 0 is the number of allowed characters</comment>
+  </data>
+  <data name="ThereAreNoSkillsOnYourProfile" xml:space="preserve">
+    <value>您的个人资料中没有技能。要添加技能，单击“添加技能”。</value>
+  </data>
+  <data name="TimeEntries" xml:space="preserve">
+    <value>时间条目</value>
+  </data>
+  <data name="TimeExceeded" xml:space="preserve">
+    <value>为此日期输入的时间不能超过 24 小时。</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="UnsavedDataWarning" xml:space="preserve">
+    <value>未保存的数据将丢失。是否确定要放弃您的所有更改?</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="UpdatedSkills" xml:space="preserve">
+    <value>更新的技能</value>
+  </data>
+  <data name="UpdateLowercase" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="WelcomeComma" xml:space="preserve">
+    <value>欢迎，</value>
+  </data>
+  <data name="YearLowercase" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="YearsLowercase" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="YouHaveNotUpdated" xml:space="preserve">
+    <value>您尚未更新任何技能。</value>
+  </data>
+  <data name="YourApplicationSent" xml:space="preserve">
+    <value>您的申请已成功提交。
+
+项目:</value>
+  </data>
+  <data name="YourOrganizationHasNoSkillsDefined" xml:space="preserve">
+    <value>您的组织没有任何已定义的技能或专长。请与您的系统管理员联系。</value>
+  </data>
+  <data name="YourProfileIsUpToDate" xml:space="preserve">
+    <value>您的个人资料是最新的。</value>
+  </data>
+  <data name="YourSkillSelectionSubmitted" xml:space="preserve">
+    <value>您选择的技能已经提交以进行更新。</value>
+  </data>
+  <data name="Justification" xml:space="preserve">
+    <value>\n评审: {0}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is the justification text</comment>
+  </data>
+  <data name="PleaseSelectProficiency" xml:space="preserve">
+    <value>请选择专长</value>
+  </data>
+  <data name="DurationHours" xml:space="preserve">
+    <value>{0}h</value>
+    <comment>Displays time in hours only. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours</comment>
+  </data>
+  <data name="DurationHoursMinute" xml:space="preserve">
+    <value>{0}h {1}m</value>
+    <comment>Displays time in hours and minutes. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours,  {Placeholder="{1}"} Placeholder 1 is an integer to representing the number of minutes</comment>
+  </data>
+  <data name="BySkillsLowercase" xml:space="preserve">
+    <value>按技能</value>
+  </data>
+  <data name="HeresWorkThatFitsBySkill" xml:space="preserve">
+    <value>以下是适合您的技能的工作。</value>
+  </data>
+  <data name="PhoneUpdateNeeded" xml:space="preserve">
+    <value>手机应用程序版本早于服务器版本。请更新此手机应用程序。</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>技能</value>
+  </data>
+  <data name="signoutLowercase" xml:space="preserve">
+    <value>注销</value>
+    <comment>sign out in lowercase</comment>
+  </data>
+  <data name="sortLowercase" xml:space="preserve">
+    <value>排序</value>
+    <comment>sort in lowercase</comment>
+  </data>
+  <data name="ApplicationSentMessage" xml:space="preserve">
+    <value>您的应用程序已成功提交。\n\n项目: {0}\n位置: {1}</value>
+    <comment>Application sent confirmation text. {Placeholder="{0}"} Placeholder 0 is the project name, {Placeholder="{1}"} Placeholder 1 is the position name</comment>
+  </data>
+  <data name="CollaboratorFullName" xml:space="preserve">
+    <value>{0} - {1}: {2}</value>
+    <comment>Collaborator full name. {Placeholder="{0}"} Placeholder 0 is the title, {Placeholder="{1}"} Placeholder 1 is the name, {Placeholder="{2}"} Placeholder 2 is the weight</comment>
+  </data>
+  <data name="DurationContainer" xml:space="preserve">
+    <value>({0})</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration</comment>
+  </data>
+  <data name="DurationLessThanOneDay" xml:space="preserve">
+    <value>&lt; 1 天</value>
+    <comment>Less than one day</comment>
+  </data>
+  <data name="FullDuration" xml:space="preserve">
+    <value>{0} 至 {1} {2}</value>
+    <comment>Work Duration text. {Placeholder="{0}"} Placeholder 0 is the work start date, {Placeholder="{1}"} Placeholder 1 is the work end date, {Placeholder="{2}"} Placeholder 2 is the duration</comment>
+  </data>
+  <data name="MoreReasonsText" xml:space="preserve">
+    <value>{0} 更多 ...</value>
+    <comment>Additional hidden reasons text, implies more options. {Placeholder="{0}"} Placeholder 0 is number of skills not shown</comment>
+  </data>
+  <data name="ProficiencyNoteText" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Proficiency note text. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name</comment>
+  </data>
+  <data name="ProficiencyNoteTextJustification" xml:space="preserve">
+    <value>{0} {1}{2}</value>
+    <comment>Proficiency note text with justification. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name, {Placeholder="{2}"} Placeholder 2 is the justification</comment>
+  </data>
+  <data name="RoleAndProject" xml:space="preserve">
+    <value>{0}|{1}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is role name, {Placeholder="{1}"} Placeholder 1 is project name</comment>
+  </data>
+  <data name="Span" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration, {Placeholder="{1}"} Placeholder 1 is day or days, month or months, etc </comment>
+  </data>
+  <data name="UserFirstNameLastName" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Full name {Placeholder="{0}"} Placeholder 0 is given name, {Placeholder="{1}"} Placeholder 1 is family name</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+</root>

@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Firma Ayarları</value>
+  </data>
+  <data name="AddProficiency" xml:space="preserve">
+    <value>Uzmanlık Ekle</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="AddSkill" xml:space="preserve">
+    <value>Beceri Ekle</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Tümü</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Tutar</value>
+  </data>
+  <data name="AnErrorOccurredWhileGettingYourWork" xml:space="preserve">
+    <value>İşle ilgili önerileriniz alınırken hata oluştu. Lütfen daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="ApplicationSent" xml:space="preserve">
+    <value>Başvuru gönderildi</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Başvur</value>
+  </data>
+  <data name="ApplyingForJob" xml:space="preserve">
+    <value>Bu iş için başvuruluyor...</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>ONAYLANDI</value>
+  </data>
+  <data name="ByCompatibilityLowercase" xml:space="preserve">
+    <value>uyumluluğa göre</value>
+  </data>
+  <data name="ByDurationLowercase" xml:space="preserve">
+    <value>süreye göre</value>
+  </data>
+  <data name="ByEarliestStartLowercase" xml:space="preserve">
+    <value>en erken başlangıca göre</value>
+  </data>
+  <data name="ByMyConnectionsLowercase" xml:space="preserve">
+    <value>bağlantılarıma göre</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="CancelLowercase" xml:space="preserve">
+    <value>iptal</value>
+    <comment>cancel in lowercase</comment>
+  </data>
+  <data name="CaptureReceipt" xml:space="preserve">
+    <value>Giriş Ekle</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>Bir gideri kategorisiz olarak kaydedemezsiniz. Kategori seçin ve yeniden deneyin.</value>
+    <comment>Error when user hasn't entered an expense cateogory.</comment>
+  </data>
+  <data name="ChangeExpenseTypeWarning" xml:space="preserve">
+    <value>Gider kategorisini değiştirirseniz şu bilgiler kaybolacak: {0}
+Devam etmek istiyor musunuz?</value>
+    <comment>Error message indicating some data will be lost if the user changes expense category. {Placeholder="{0}"} Placeholder 0 is a string of the data that will be lost</comment>
+  </data>
+  <data name="Compatibility" xml:space="preserve">
+    <value>Uyumluluk</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>Bağlanma hedefi</value>
+  </data>
+  <data name="ContactingYourCompanyDotDotDot" xml:space="preserve">
+    <value>Şirketinizle iletişime geçiliyor...</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Para birimi</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Müşteriler</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="DateInvalidWarning" xml:space="preserve">
+    <value>Belirtilen tarih geçerli değil.</value>
+  </data>
+  <data name="DayLowercase" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="DaysLowercase" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="DefaultDirectory" xml:space="preserve">
+    <value>myDirectory</value>
+    <comment>Default directory to give when there is none provided</comment>
+  </data>
+  <data name="DefaultFilename" xml:space="preserve">
+    <value>myFile</value>
+    <comment>Default filename to give when there is none provided</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>Seçilen öğeler silinecek.</value>
+  </data>
+  <data name="DeleteWarningExpense" xml:space="preserve">
+    <value>Seçilen gider silinecek.</value>
+    <comment>Confirmation message when deleting expenses.</comment>
+  </data>
+  <data name="DeleteWarningTime" xml:space="preserve">
+    <value>Seçilen zaman girişi silinecek.</value>
+    <comment>Confirmation message when deleting time entries.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="DescriptionUppercase" xml:space="preserve">
+    <value>AÇIKLAMA</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Ayrıntılar</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>At</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Taslak</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Süre (SA:dd)</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Süre</value>
+  </data>
+  <data name="EarliestStart" xml:space="preserve">
+    <value>En Erken Başlangıç</value>
+  </data>
+  <data name="endPoint" xml:space="preserve">
+    <value>CRM Online Adresi</value>
+  </data>
+  <data name="errorAuthenticationCancelled" xml:space="preserve">
+    <value>Kimlik doğrulamayı iptal ettiniz. Uygulamayı kullanmak için, CRM sunucunuzda oturum açın.</value>
+  </data>
+  <data name="errorAuthenticationFailed" xml:space="preserve">
+    <value>Sunucuda kimlik doğrulamanız yapılmaya çalışılırken hata oluştu. Lütfen daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="errorCrmRequestNotSupported" xml:space="preserve">
+    <value>Proje Hizmeti çözümünüz doğru ayarlanmamış olabilir. Yöneticinizle iletişime geçin.</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>İnternet'e bağlı değilsiniz. Bağlantınızı kontrol edin ve yeniden deneyin.</value>
+  </data>
+  <data name="errorOAuthUrlRetrieveFailed" xml:space="preserve">
+    <value>Belirtilen sunucuya bağlanılamıyor. CRM sunucusu URL'sini veya İnternet bağlantınızı kontrol edin ve yeniden deneyin.</value>
+  </data>
+  <data name="ErrorOpeningFile" xml:space="preserve">
+    <value>Şu dosya açılamadı: {0}</value>
+    <comment>Error message when a file I/O open operation failed. {Placeholder="{0}"} Placeholder 0 is the name of the file that could not be opened</comment>
+  </data>
+  <data name="errorRestCall" xml:space="preserve">
+    <value>Bu işlem yapılırken sunucuda hata oluştu.</value>
+  </data>
+  <data name="errorRetrievePrivilegeForUser" xml:space="preserve">
+    <value>Başvuruya erişme izniniz yok. Yöneticinizle iletişime geçin.</value>
+  </data>
+  <data name="errorServiceAccessDenied" xml:space="preserve">
+    <value>Üzgünüz, servise erişiminiz yok. Lütfen yeniden oturum açmayı deneyin.</value>
+  </data>
+  <data name="errorServiceContactAdmin" xml:space="preserve">
+    <value>Üzgünüz, servisle iletişime geçilirken hata oluştu. Lütfen yöneticinizle iletişime geçin. Hata ayrıntıları:\n\n{0}</value>
+    <comment>Error when the app is not able to connect to your dynamics instance. {Placeholder="{0}"} Placeholder 0 is a string containing details of the error</comment>
+  </data>
+  <data name="errorServiceUnknown" xml:space="preserve">
+    <value>Üzgünüz, servisle iletişime geçilirken hata oluştu. Lütfen daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="errorSessionExpired" xml:space="preserve">
+    <value>Oturumunuzun süresi doldu ve oturumunuz kapatıldı. Yeniden oturum açın.</value>
+  </data>
+  <data name="errorTitle" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="ExpenseReceiptSubmitError" xml:space="preserve">
+    <value>Bu gider türü girişsiz olarak gönderilemez. Bir giriş ekleyin ve gideri yeniden göndermeyi deneyin.</value>
+    <comment>Error thrown when user tries to submit an expense without receipt attach that requires one.</comment>
+  </data>
+  <data name="expenseSaved" xml:space="preserve">
+    <value>Kaydedildi</value>
+  </data>
+  <data name="ExternalComments" xml:space="preserve">
+    <value>Harici Yorumlar</value>
+  </data>
+  <data name="GettingYourInfoDotDotDot" xml:space="preserve">
+    <value>Bilgileriniz alınıyor...</value>
+  </data>
+  <data name="HereAreSkillsOnYourProfile" xml:space="preserve">
+    <value>Profilinizdeki beceriler burada belirtilmiştir. Becerilerinizi güncelleştirebilir veya yeni bir beceri ekleyebilirsiniz.</value>
+  </data>
+  <data name="HeresWorkThatFits" xml:space="preserve">
+    <value>Deneyiminize ve tercihlerinize uyan iş burada belirtilmiştir.</value>
+  </data>
+  <data name="inProcess" xml:space="preserve">
+    <value>Sürüyor</value>
+  </data>
+  <data name="InternalComments" xml:space="preserve">
+    <value>Dahili Yorumlar</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>Bir zaman giriş süresi için yalnızca artı sayılar girebilirsiniz. SA:dd biçiminde bir artı sayıyla yeniden deneyin.</value>
+  </data>
+  <data name="InYourConnections" xml:space="preserve">
+    <value>Bağlantılarınızda</value>
+  </data>
+  <data name="ItSeemsProfileOutOfDateWouldYouUpdate" xml:space="preserve">
+    <value>Profiliniz güncel değil gibi görünüyor. Profilinizi güncelleştirmek ister misiniz?</value>
+  </data>
+  <data name="ItSeemsYourProfileIsOutOfDate" xml:space="preserve">
+    <value>Profiliniz güncel değil gibi görünüyor. Sizin için uygun olanlar aşağıda belirtilmiştir:</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="LocationUppercase" xml:space="preserve">
+    <value>KONUM</value>
+  </data>
+  <data name="LoggingInPleaseWait" xml:space="preserve">
+    <value>Oturum açılıyor. Lütfen bekleyin...</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Oturum Aç</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Oturumu Kapat</value>
+  </data>
+  <data name="LogOutOk" xml:space="preserve">
+    <value>Oturum başarıyla kapatıldı.</value>
+  </data>
+  <data name="messageTitle" xml:space="preserve">
+    <value>İleti</value>
+  </data>
+  <data name="MonthLowercase" xml:space="preserve">
+    <value>ay</value>
+  </data>
+  <data name="MonthsLowercase" xml:space="preserve">
+    <value>ay</value>
+  </data>
+  <data name="moreDotDotDot" xml:space="preserve">
+    <value>daha fazla...</value>
+  </data>
+  <data name="MyConnections" xml:space="preserve">
+    <value>Bağlantılarım</value>
+  </data>
+  <data name="MyExpenses" xml:space="preserve">
+    <value>Giderlerim</value>
+  </data>
+  <data name="MySkills" xml:space="preserve">
+    <value>BECERİLERİM</value>
+  </data>
+  <data name="MyTime" xml:space="preserve">
+    <value>Zamanım</value>
+  </data>
+  <data name="NewSkills" xml:space="preserve">
+    <value>YENİ BECERİLER</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="NoEntries" xml:space="preserve">
+    <value>Giriş bulunamadı.</value>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>Sunucuya bağlanılırken sorun yaşanıyor. Lütfen daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="NoRequirements" xml:space="preserve">
+    <value>Gereksinim yok</value>
+  </data>
+  <data name="NoResultsFound" xml:space="preserve">
+    <value>Sonuç bulunamadı.</value>
+  </data>
+  <data name="notApplicable" xml:space="preserve">
+    <value>Uygulanamaz</value>
+  </data>
+  <data name="NoTeamMembers" xml:space="preserve">
+    <value>Takım üyesi yok</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notlar</value>
+  </data>
+  <data name="NoWorkCurrently" xml:space="preserve">
+    <value>Şu anda mevcut iş yok. Lütfen daha sonra yeniden kontrol edin.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Diğerleri</value>
+  </data>
+  <data name="OverviewUppercase" xml:space="preserve">
+    <value>GENEL BAKIŞ</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Ödendi</value>
+  </data>
+  <data name="PleaseEnterYourCRMURL" xml:space="preserve">
+    <value>Microsoft Dynamics CRM Sunucu URL'nizi girin.</value>
+  </data>
+  <data name="PleaseLogInToYourCRMServer" xml:space="preserve">
+    <value>Devam etmek için Microsoft Dynamics CRM Sunucunuzda oturum açın.</value>
+  </data>
+  <data name="PleaseSelectSkill" xml:space="preserve">
+    <value>Beceri seçin.</value>
+  </data>
+  <data name="PleaseWaitWhileWeSearchDotDotDot" xml:space="preserve">
+    <value>Mevcut işler aranırken lütfen bekleyin...</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Pozisyon:</value>
+  </data>
+  <data name="Posted" xml:space="preserve">
+    <value>Gönderildi</value>
+  </data>
+  <data name="ProcessingDotDotDot" xml:space="preserve">
+    <value>İşleniyor...</value>
+  </data>
+  <data name="Proficiency" xml:space="preserve">
+    <value>Uzmanlık</value>
+  </data>
+  <data name="proficiencyBySystem" xml:space="preserve">
+    <value>Uzmanlık sistem tarafından belirlendi.</value>
+  </data>
+  <data name="proficiencyByUser" xml:space="preserve">
+    <value>Uzmanlık kullanıcı tarafından belirlendi. Sisteme göre uzmanlık şu olmalıdır:</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="ProfileColon" xml:space="preserve">
+    <value>Profil:</value>
+  </data>
+  <data name="ProfileLowercase" xml:space="preserve">
+    <value>profil</value>
+  </data>
+  <data name="ProfileUpdate" xml:space="preserve">
+    <value>Profil Güncelleştirme</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Proje</value>
+  </data>
+  <data name="ProjectTask" xml:space="preserve">
+    <value>Proje Görevi</value>
+  </data>
+  <data name="ReallySignOut" xml:space="preserve">
+    <value>Oturumu kapatmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Recall" xml:space="preserve">
+    <value>Geri çek</value>
+  </data>
+  <data name="RecallError" xml:space="preserve">
+    <value>Öğe geri çekilemiyor. Lütfen verileri kontrol edin veya daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>Girişler</value>
+  </data>
+  <data name="ReceiptsDirName" xml:space="preserve">
+    <value>ExpenseReceipts</value>
+    <comment>Directory name used when saving expense receipts.</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="RefreshLowercase" xml:space="preserve">
+    <value>yenile</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Reddedildi</value>
+  </data>
+  <data name="RequirementsUppercase" xml:space="preserve">
+    <value>GEREKSİNİMLER</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>tr-TR</value>
+    <comment>Do Not Localize. Language code only</comment>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>Satış Vergisi</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Taslak</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Öğe kaydedilemiyor. Lütfen verileri kontrol edin veya daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="SearchInFindWork" xml:space="preserve">
+    <value>Project Finder Mobile içinde ara</value>
+  </data>
+  <data name="SearchingDotDotDot" xml:space="preserve">
+    <value>Aranıyor...</value>
+  </data>
+  <data name="SearchLowercase" xml:space="preserve">
+    <value>ara</value>
+  </data>
+  <data name="SearchUppercase" xml:space="preserve">
+    <value>ARA</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="SelectProficiency" xml:space="preserve">
+    <value>Uzmanlık seç</value>
+  </data>
+  <data name="SelectSkill" xml:space="preserve">
+    <value>Beceri seç</value>
+  </data>
+  <data name="SetProficiencyForSkillsToUpdate" xml:space="preserve">
+    <value>Güncelleştirilmesini istediğiniz beceriler için uzmanlığı ayarlayın.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="settingsDescription" xml:space="preserve">
+    <value>1. Dynamics CRM sunucu URL'sini girin ve ardından Oturum Aç'a tıklayın.
+2. Oturum açma işlemini tamamlamak için sonraki ekranda kimlik bilgilerinizi girin.</value>
+  </data>
+  <data name="ShowAllProjects" xml:space="preserve">
+    <value>Tüm projeleri göster</value>
+  </data>
+  <data name="ShowMyProjects" xml:space="preserve">
+    <value>Projelerimi göster</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Oturumu Kapat</value>
+  </data>
+  <data name="Skill" xml:space="preserve">
+    <value>Beceri</value>
+  </data>
+  <data name="SorrySkillSelectionNotSubmitted" xml:space="preserve">
+    <value>Üzgünüz, beceri seçiminiz gönderilemedi. Lütfen daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sırala</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sıralama ölçütü:</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="SubmitError" xml:space="preserve">
+    <value>Öğe gönderilemiyor. Lütfen verileri kontrol edin veya daha sonra yeniden deneyin.</value>
+  </data>
+  <data name="SubmitLowercase" xml:space="preserve">
+    <value>gönder</value>
+    <comment>submit in lowercase</comment>
+  </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Gönderildi</value>
+  </data>
+  <data name="SuggestProfileUpdates" xml:space="preserve">
+    <value>Profil Güncelleştirmeleri Öner</value>
+  </data>
+  <data name="TeamUppercase" xml:space="preserve">
+    <value>TAKIM</value>
+  </data>
+  <data name="TextSizeLimitedTo" xml:space="preserve">
+    <value>Metin {0} karakterle sınırlıdır.</value>
+    <comment>Error message when the user has entered more text than is allowed. {Placeholder="{0}"} Placeholder 0 is the number of allowed characters</comment>
+  </data>
+  <data name="ThereAreNoSkillsOnYourProfile" xml:space="preserve">
+    <value>Profilinizde beceri yok. Beceri eklemek için Beceri Ekle'ye tıklayın.</value>
+  </data>
+  <data name="TimeEntries" xml:space="preserve">
+    <value>Zaman Girişleri</value>
+  </data>
+  <data name="TimeExceeded" xml:space="preserve">
+    <value>Bu tarihe ait zaman girişleri 24 saati geçemez.</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>kime</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="UnsavedDataWarning" xml:space="preserve">
+    <value>Kaydedilmemiş verileriniz kaybolacak. Yaptığınız tüm değişiklikleri iptal etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Güncelleştir</value>
+  </data>
+  <data name="UpdatedSkills" xml:space="preserve">
+    <value>GÜNCELLEŞTİRİLEN BECERİLER</value>
+  </data>
+  <data name="UpdateLowercase" xml:space="preserve">
+    <value>güncelleştir</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Görüntüle</value>
+  </data>
+  <data name="WelcomeComma" xml:space="preserve">
+    <value>Hoş geldiniz,</value>
+  </data>
+  <data name="YearLowercase" xml:space="preserve">
+    <value>yıl</value>
+  </data>
+  <data name="YearsLowercase" xml:space="preserve">
+    <value>yıl</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="YouHaveNotUpdated" xml:space="preserve">
+    <value>Hiçbir beceriyi güncelleştirmediniz.</value>
+  </data>
+  <data name="YourApplicationSent" xml:space="preserve">
+    <value>Uygulamanız başarıyla gönderildi.
+
+Proje:</value>
+  </data>
+  <data name="YourOrganizationHasNoSkillsDefined" xml:space="preserve">
+    <value>Kuruluşunuzun tanımlanmış becerileri veya uzmanlıkları bulunmuyor. Lütfen sistem yöneticinizle iletişime geçin.</value>
+  </data>
+  <data name="YourProfileIsUpToDate" xml:space="preserve">
+    <value>Profiliniz güncel.</value>
+  </data>
+  <data name="YourSkillSelectionSubmitted" xml:space="preserve">
+    <value>Beceri seçiminiz güncelleştirme için gönderildi.</value>
+  </data>
+  <data name="Justification" xml:space="preserve">
+    <value>\nGerekçe: {0}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is the justification text</comment>
+  </data>
+  <data name="PleaseSelectProficiency" xml:space="preserve">
+    <value>Lütfen bir uzmanlık seçin</value>
+  </data>
+  <data name="DurationHours" xml:space="preserve">
+    <value>{0} sa.</value>
+    <comment>Displays time in hours only. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours</comment>
+  </data>
+  <data name="DurationHoursMinute" xml:space="preserve">
+    <value>{0} sa. {1} dk.</value>
+    <comment>Displays time in hours and minutes. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours,  {Placeholder="{1}"} Placeholder 1 is an integer to representing the number of minutes</comment>
+  </data>
+  <data name="BySkillsLowercase" xml:space="preserve">
+    <value>becerilere göre</value>
+  </data>
+  <data name="HeresWorkThatFitsBySkill" xml:space="preserve">
+    <value>Becerilerinize uyan iş burada belirtilmiştir.</value>
+  </data>
+  <data name="PhoneUpdateNeeded" xml:space="preserve">
+    <value>Telefon uygulaması sürümü sunucu sürümünden daha eski. Lütfen bu telefon uygulamasını güncelleştirin.</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Beceriler</value>
+  </data>
+  <data name="signoutLowercase" xml:space="preserve">
+    <value>oturumu kapat</value>
+    <comment>sign out in lowercase</comment>
+  </data>
+  <data name="sortLowercase" xml:space="preserve">
+    <value>sırala</value>
+    <comment>sort in lowercase</comment>
+  </data>
+  <data name="ApplicationSentMessage" xml:space="preserve">
+    <value>Başvurunuz başarıyla gönderildi.\n\nProje: {0}\nPozisyon: {1}</value>
+    <comment>Application sent confirmation text. {Placeholder="{0}"} Placeholder 0 is the project name, {Placeholder="{1}"} Placeholder 1 is the position name</comment>
+  </data>
+  <data name="CollaboratorFullName" xml:space="preserve">
+    <value>{0} - {1}: {2}</value>
+    <comment>Collaborator full name. {Placeholder="{0}"} Placeholder 0 is the title, {Placeholder="{1}"} Placeholder 1 is the name, {Placeholder="{2}"} Placeholder 2 is the weight</comment>
+  </data>
+  <data name="DurationContainer" xml:space="preserve">
+    <value>({0})</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration</comment>
+  </data>
+  <data name="DurationLessThanOneDay" xml:space="preserve">
+    <value>1 günden az</value>
+    <comment>Less than one day</comment>
+  </data>
+  <data name="FullDuration" xml:space="preserve">
+    <value>{0} - {1} {2}</value>
+    <comment>Work Duration text. {Placeholder="{0}"} Placeholder 0 is the work start date, {Placeholder="{1}"} Placeholder 1 is the work end date, {Placeholder="{2}"} Placeholder 2 is the duration</comment>
+  </data>
+  <data name="MoreReasonsText" xml:space="preserve">
+    <value>{0} seçenek daha...</value>
+    <comment>Additional hidden reasons text, implies more options. {Placeholder="{0}"} Placeholder 0 is number of skills not shown</comment>
+  </data>
+  <data name="ProficiencyNoteText" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Proficiency note text. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name</comment>
+  </data>
+  <data name="ProficiencyNoteTextJustification" xml:space="preserve">
+    <value>{0} {1}{2}</value>
+    <comment>Proficiency note text with justification. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name, {Placeholder="{2}"} Placeholder 2 is the justification</comment>
+  </data>
+  <data name="RoleAndProject" xml:space="preserve">
+    <value>{0}|{1}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is role name, {Placeholder="{1}"} Placeholder 1 is project name</comment>
+  </data>
+  <data name="Span" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration, {Placeholder="{1}"} Placeholder 1 is day or days, month or months, etc </comment>
+  </data>
+  <data name="UserFirstNameLastName" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Full name {Placeholder="{0}"} Placeholder 0 is given name, {Placeholder="{1}"} Placeholder 1 is family name</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+</root>

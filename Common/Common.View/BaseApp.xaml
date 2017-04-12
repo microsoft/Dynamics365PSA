@@ -1,0 +1,135 @@
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:app="clr-namespace:Common.View;assembly=Common.View"
+             x:Class="Common.View.BaseApp">
+  <Application.Resources>
+    <ResourceDictionary>
+
+      <!-- Size definition. Use Windows Phone Font size as its name, but I set smaller number for iOS and Android -->
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size70" iOS="49" Android="49" WinPhone="70" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size60" iOS="42" Android="42" WinPhone="60" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size50" iOS="35" Android="35" WinPhone="50" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size45" iOS="31" Android="31" WinPhone="45" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size40" iOS="28" Android="28" WinPhone="40" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size38" iOS="28" Android="28" WinPhone="38" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size30" iOS="22" Android="22" WinPhone="30" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size28" iOS="19" Android="19" WinPhone="28" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size22" iOS="15" Android="18" WinPhone="22" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size18" iOS="13" Android="13" WinPhone="18" />
+      <OnPlatform x:TypeArguments="x:Double" x:Key="Size14" iOS="13" Android="13" WinPhone="14" />
+      <OnPlatform x:TypeArguments="Thickness" x:Key="ListPadding" iOS="0,0" Android="0,0" WinPhone="0,0" />
+      <OnPlatform x:TypeArguments="Thickness" x:Key="PagePadding" iOS="0,0,0,0" Android="0" WinPhone="0,0,0,72" /> 
+      
+      <!-- Default resources -->
+      <Style TargetType="ActivityIndicator">
+        <Setter Property="Color" Value="{x:Static app:BaseApp.TEXT_COLOR_MAIN_ACTION}" />
+        <Setter Property="HorizontalOptions" Value="Fill" />
+        <Setter Property="VerticalOptions" Value="Fill" />
+      </Style>
+
+      <Style TargetType="Button">
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR_TITLE}" />
+        <Setter Property="BorderColor" Value="{x:Static app:BaseApp.TEXT_COLOR_TITLE}" />
+        <Setter Property="BorderWidth" Value="2" />
+        <Setter Property="WidthRequest" Value="200" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+      </Style>
+      
+      <Style TargetType="Label">
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR_TITLE}" />
+        <Setter Property="FontSize" Value="{StaticResource Size22}" />
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+      </Style>
+      
+      <!--Button-->
+      <Style x:Key="Button_Primary" TargetType="Button">
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR_MAIN_ACTION}" />
+        <Setter Property="BorderColor" Value="{x:Static app:BaseApp.TEXT_COLOR_MAIN_ACTION}" />
+        <Setter Property="BorderWidth" Value="2" />
+        <Setter Property="WidthRequest" Value="200" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+      </Style>
+        
+      <!-- Grid -->
+      <Style x:Key="Grid_Indicator" TargetType="Grid">
+        <Setter Property="MinimumWidthRequest" Value="80" />
+        <Setter Property="HeightRequest" Value="20" />
+        <Setter Property="VerticalOptions" Value="Center" />
+      </Style>
+      
+      <Style x:Key="Grid_Page" TargetType="Grid">
+        <Setter Property="Padding" Value="{StaticResource PagePadding}" />
+        <Setter Property="ColumnSpacing" Value="0" />
+        <Setter Property="RowSpacing" Value="0" />
+      </Style>
+
+      <Style x:Key="Grid_PageHeader" TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{x:Static app:BaseApp.PAGE_HEADER_COLOR}" />
+        <Setter Property="HeightRequest" Value="{StaticResource Size60}" />
+      </Style>
+      
+      <!---Label-->
+      <Style x:Key="Label_BigAmount" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource Size22}" />
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR}" />
+        <Setter Property="HorizontalTextAlignment" Value="End" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+      </Style>
+      <Style x:Key="Label_Field" TargetType="Label">
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR_LABEL}" />
+        <Setter Property="FontSize" Value="{StaticResource Size18}" />
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+      </Style>
+      <Style x:Key="Label_Icon" TargetType="Label">
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.ICON_COLOR}" />
+        <Setter Property="FontSize" Value="{StaticResource Size38}" />
+        <Setter Property="FontFamily" Value="Assets/Fonts/DynamicsSymbol.ttf#Dynamics Symbol" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+      </Style>
+      <Style x:Key="Medium_Label_Icon" TargetType="Label">
+         <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR}" />
+         <Setter Property="FontSize" Value="{StaticResource Size22}" />
+         <Setter Property="FontFamily" Value="Assets/Fonts/DynamicsSymbol.ttf#Dynamics Symbol" />
+         <Setter Property="HorizontalTextAlignment" Value="End" />
+         <Setter Property="VerticalTextAlignment" Value="Start" />
+      </Style>
+      <Style x:Key="Small_Label_Icon" TargetType="Label">
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR}" />
+        <Setter Property="FontSize" Value="{StaticResource Size14}" />
+        <Setter Property="FontFamily" Value="Assets/Fonts/DynamicsSymbol.ttf#Dynamics Symbol" />
+        <Setter Property="HorizontalTextAlignment" Value="End" />
+        <Setter Property="VerticalTextAlignment" Value="Start" />
+      </Style>
+      <Style x:Key="Label_Indicator" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource Size14}" />
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR_MAIN_ACTION}" />
+        <Setter Property="HorizontalTextAlignment" Value="End" />
+        <Setter Property="VerticalTextAlignment" Value="Start" />
+      </Style>
+      <Style x:Key="Label_PageHeader" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource Size22}" />
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR_HEADER}" />
+        <Setter Property="BackgroundColor" Value="{x:Static app:BaseApp.PAGE_HEADER_COLOR}" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="HeightRequest" Value="45" />
+      </Style>
+      <Style x:Key="Label_Secondary" TargetType="Label">
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR}" />
+        <Setter Property="FontSize" Value="{StaticResource Size22}" />
+      </Style>
+      <Style x:Key="Label_Subtitle" TargetType="Label">
+        <Setter Property="TextColor" Value="{x:Static app:BaseApp.TEXT_COLOR}" />
+        <Setter Property="FontSize" Value="{StaticResource Size18}" />
+      </Style>
+      <Style x:Key="Label_WinPhone_Header" TargetType="Label">
+        <Setter Property="HeightRequest" Value="45" />
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:CustomControl="clr-namespace:Common.View.CustomControl;assembly=Common.View"
+             xmlns:app="clr-namespace:Common.View;assembly=Common.View"
+             x:Class="Common.View.Settings"
+             BackgroundColor ="{x:Static app:BaseApp.PAGE_BACKGROUND_COLOR}">
+    <Grid Style="{StaticResource Grid_Page}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Page Header -->
+        <Grid Style="{StaticResource Grid_PageHeader}">
+              <Label Text="{Binding Title}" Style="{StaticResource Label_PageHeader}" />
+        </Grid>
+        
+        <!--Setting -->
+        <Grid Grid.Row="1" Padding="10">
+            <StackLayout>
+              <ActivityIndicator IsRunning="{Binding IsBusy}" />
+              <Label Text="{Binding ServiceUrlLabel}" />
+              <!-- Helper to set CRM Online address. -->
+              <CustomControl:EntryEx x:Name="Entry" Text="{Binding ServiceUrl, Mode=TwoWay}" Placeholder="https://org.crm.dynamics.com" IsEnabled="{Binding IsLoggedOut}" />
+              <CustomControl:LabelEx Text="{Binding Description}" Style="{StaticResource Label_Secondary}" />
+              <Button x:Name="LoginButton" Text="{Binding LogLabel}" Command="{Binding LogCommand}" Style="{StaticResource Button_Primary}" />
+            </StackLayout>            
+        </Grid>
+    </Grid>
+</ContentPage>

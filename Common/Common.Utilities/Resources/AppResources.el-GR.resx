@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Ρυθμίσεις λογαριασμού</value>
+  </data>
+  <data name="AddProficiency" xml:space="preserve">
+    <value>Προσθήκη επάρκειας</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Διεύθυνση</value>
+  </data>
+  <data name="AddSkill" xml:space="preserve">
+    <value>Προσθήκη δεξιότητας</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Όλα</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Ποσό</value>
+  </data>
+  <data name="AnErrorOccurredWhileGettingYourWork" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα κατά τη λήψη των εργασιακών προτάσεών σας. Δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="ApplicationSent" xml:space="preserve">
+    <value>Η αίτηση εστάλη</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Εφαρμογή</value>
+  </data>
+  <data name="ApplyingForJob" xml:space="preserve">
+    <value>Υποβάλλεται αίτηση για αυτήν την εργασία...</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>ΕΓΚΡΙΘΗΚΕ</value>
+  </data>
+  <data name="ByCompatibilityLowercase" xml:space="preserve">
+    <value>κατά συμβατότητα</value>
+  </data>
+  <data name="ByDurationLowercase" xml:space="preserve">
+    <value>κατά διάρκεια</value>
+  </data>
+  <data name="ByEarliestStartLowercase" xml:space="preserve">
+    <value>κατά νωρίτερη έναρξη</value>
+  </data>
+  <data name="ByMyConnectionsLowercase" xml:space="preserve">
+    <value>κατά τις συνδέσεις μου</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Άκυρο</value>
+  </data>
+  <data name="CancelLowercase" xml:space="preserve">
+    <value>άκυρο</value>
+    <comment>cancel in lowercase</comment>
+  </data>
+  <data name="CaptureReceipt" xml:space="preserve">
+    <value>Προσθήκη απόδειξης</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Κατηγορία</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>Δεν μπορείτε να αποθηκεύσετε ένα έξοδο χωρίς κατηγορία. Επιλέξτε μια κατηγορία και δοκιμάστε να κάνετε ξανά αποθήκευση.</value>
+    <comment>Error when user hasn't entered an expense cateogory.</comment>
+  </data>
+  <data name="ChangeExpenseTypeWarning" xml:space="preserve">
+    <value>Αν αλλάξετε την κατηγορία εξόδου, θα χαθούν οι ακόλουθες πληροφορίες: {0}. 
+Θέλετε να συνεχίσετε;</value>
+    <comment>Error message indicating some data will be lost if the user changes expense category. {Placeholder="{0}"} Placeholder 0 is a string of the data that will be lost</comment>
+  </data>
+  <data name="Compatibility" xml:space="preserve">
+    <value>Συμβατότητα</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>Σε σύνδεση με</value>
+  </data>
+  <data name="ContactingYourCompanyDotDotDot" xml:space="preserve">
+    <value>Επικοινωνία με την εταιρεία σας...</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Δημιουργία</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Νόμισμα</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Πελάτες</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Ημερομηνία</value>
+  </data>
+  <data name="DateInvalidWarning" xml:space="preserve">
+    <value>Η καθορισμένη ημερομηνία δεν είναι έγκυρη.</value>
+  </data>
+  <data name="DayLowercase" xml:space="preserve">
+    <value>ημέρα</value>
+  </data>
+  <data name="DaysLowercase" xml:space="preserve">
+    <value>ημέρες</value>
+  </data>
+  <data name="DefaultDirectory" xml:space="preserve">
+    <value>myDirectory</value>
+    <comment>Default directory to give when there is none provided</comment>
+  </data>
+  <data name="DefaultFilename" xml:space="preserve">
+    <value>myFile</value>
+    <comment>Default filename to give when there is none provided</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>Τα επιλεγμένα στοιχεία θα διαγραφούν.</value>
+  </data>
+  <data name="DeleteWarningExpense" xml:space="preserve">
+    <value>Το επιλεγμένο έξοδο θα διαγραφεί.</value>
+    <comment>Confirmation message when deleting expenses.</comment>
+  </data>
+  <data name="DeleteWarningTime" xml:space="preserve">
+    <value>Η επιλεγμένη χρονική καταχώρηση θα διαγραφεί.</value>
+    <comment>Confirmation message when deleting time entries.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="DescriptionUppercase" xml:space="preserve">
+    <value>ΠΕΡΙΓΡΑΦΗ</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Λεπτομέρειες</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Απόρριψη</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Προσχέδιο</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Διάρκεια (HH:mm)</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Διάρκεια</value>
+  </data>
+  <data name="EarliestStart" xml:space="preserve">
+    <value>Νωρίτερη έναρξη</value>
+  </data>
+  <data name="endPoint" xml:space="preserve">
+    <value>Διεύθυνση CRM Online</value>
+  </data>
+  <data name="errorAuthenticationCancelled" xml:space="preserve">
+    <value>Ακυρώσατε τον έλεγχο ταυτότητας. Για να χρησιμοποιήσετε την εφαρμογή, εισέλθετε στο διακομιστή CRM.</value>
+  </data>
+  <data name="errorAuthenticationFailed" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα κατά την απόπειρα ελέγχου ταυτότητάς σας στο διακομιστή. Δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="errorCrmRequestNotSupported" xml:space="preserve">
+    <value>Η λύση υπηρεσίας έργου ίσως να μην έχει ρυθμιστεί σωστά. Επικοινωνήστε με το διαχειριστή.</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Δεν είστε συνδεδεμένοι στο Internet. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</value>
+  </data>
+  <data name="errorOAuthUrlRetrieveFailed" xml:space="preserve">
+    <value>Δεν μπορούμε να συνδεθούμε στον καθορισμένο διακομιστή. Ελέγξτε τη διεύθυνση URL του διακομιστή CRM ή τη σύνδεσή σας στο Internet και δοκιμάστε ξανά.</value>
+  </data>
+  <data name="ErrorOpeningFile" xml:space="preserve">
+    <value>Δεν ήταν δυνατό το άνοιγμα του ακόλουθου αρχείου: {0}</value>
+    <comment>Error message when a file I/O open operation failed. {Placeholder="{0}"} Placeholder 0 is the name of the file that could not be opened</comment>
+  </data>
+  <data name="errorRestCall" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα στο διακομιστή κατά την επεξεργασία αυτής της λειτουργίας.</value>
+  </data>
+  <data name="errorRetrievePrivilegeForUser" xml:space="preserve">
+    <value>Δεν έχετε δικαιώματα πρόσβασης σε αυτήν την εφαρμογή. Επικοινωνήστε με το διαχειριστή.</value>
+  </data>
+  <data name="errorServiceAccessDenied" xml:space="preserve">
+    <value>Δυστυχώς, δεν έχετε πρόσβαση στην υπηρεσία. Δοκιμάστε να εισέλθετε ξανά.</value>
+  </data>
+  <data name="errorServiceContactAdmin" xml:space="preserve">
+    <value>Δυστυχώς, παρουσιάστηκε σφάλμα κατά την επικοινωνία με την υπηρεσία. Επικοινωνήστε με το διαχειριστή. Λεπτομέρειες σφάλματος:\n\n{0}</value>
+    <comment>Error when the app is not able to connect to your dynamics instance. {Placeholder="{0}"} Placeholder 0 is a string containing details of the error</comment>
+  </data>
+  <data name="errorServiceUnknown" xml:space="preserve">
+    <value>Δυστυχώς, παρουσιάστηκε σφάλμα κατά την επικοινωνία με την υπηρεσία. Δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="errorSessionExpired" xml:space="preserve">
+    <value>Η περίοδος λειτουργίας σας έληξε και εξήλθατε. Εισέλθετε ξανά.</value>
+  </data>
+  <data name="errorTitle" xml:space="preserve">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="ExpenseReceiptSubmitError" xml:space="preserve">
+    <value>Δεν είναι δυνατή η υποβολή αυτού του τύπου εξόδου χωρίς απόδειξη. Επισυνάψτε μια απόδειξη και δοκιμάστε να υποβάλετε ξανά το έξοδο.</value>
+    <comment>Error thrown when user tries to submit an expense without receipt attach that requires one.</comment>
+  </data>
+  <data name="expenseSaved" xml:space="preserve">
+    <value>Αποθηκευμένο</value>
+  </data>
+  <data name="ExternalComments" xml:space="preserve">
+    <value>Εξωτερικά σχόλια</value>
+  </data>
+  <data name="GettingYourInfoDotDotDot" xml:space="preserve">
+    <value>Λήψη των πληροφοριών σας...</value>
+  </data>
+  <data name="HereAreSkillsOnYourProfile" xml:space="preserve">
+    <value>Δείτε εδώ τις δεξιότητες στο προφίλ σας. Μπορείτε να ενημερώσετε τις δεξιότητές σας ή να προσθέσετε μια νέα δεξιότητα.</value>
+  </data>
+  <data name="HeresWorkThatFits" xml:space="preserve">
+    <value>Δείτε εδώ εργασία που αντιστοιχεί στην εμπειρία και τις προτιμήσεις σας.</value>
+  </data>
+  <data name="inProcess" xml:space="preserve">
+    <value>Σε εξέλιξη</value>
+  </data>
+  <data name="InternalComments" xml:space="preserve">
+    <value>Εσωτερικά σχόλια</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>Μπορείτε να καταχωρήσετε μόνο θετικούς αριθμούς για τη διάρκεια μιας χρονικής καταχώρησης. Δοκιμάστε ξανά με έναν θετικό αριθμό σε μορφή HH:mm.</value>
+  </data>
+  <data name="InYourConnections" xml:space="preserve">
+    <value>Στις επαφές σας</value>
+  </data>
+  <data name="ItSeemsProfileOutOfDateWouldYouUpdate" xml:space="preserve">
+    <value>Φαίνεται ότι το προφίλ σας δεν είναι ενημερωμένο. Θέλετε να το ενημερώσετε;</value>
+  </data>
+  <data name="ItSeemsYourProfileIsOutOfDate" xml:space="preserve">
+    <value>Φαίνεται ότι το προφίλ σας δεν είναι ενημερωμένο. Δείτε εδώ τι έχουμε για εσάς:</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Θέση</value>
+  </data>
+  <data name="LocationUppercase" xml:space="preserve">
+    <value>ΘΕΣΗ</value>
+  </data>
+  <data name="LoggingInPleaseWait" xml:space="preserve">
+    <value>Γίνεται είσοδος. Περιμένετε...</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Είσοδος</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Έξοδος</value>
+  </data>
+  <data name="LogOutOk" xml:space="preserve">
+    <value>Η περίοδος λειτουργίας έκλεισε με επιτυχία.</value>
+  </data>
+  <data name="messageTitle" xml:space="preserve">
+    <value>Μήνυμα</value>
+  </data>
+  <data name="MonthLowercase" xml:space="preserve">
+    <value>μήνας</value>
+  </data>
+  <data name="MonthsLowercase" xml:space="preserve">
+    <value>μήνες</value>
+  </data>
+  <data name="moreDotDotDot" xml:space="preserve">
+    <value>περισσότερα...</value>
+  </data>
+  <data name="MyConnections" xml:space="preserve">
+    <value>Οι συνδέσεις μου</value>
+  </data>
+  <data name="MyExpenses" xml:space="preserve">
+    <value>Τα έξοδά μου</value>
+  </data>
+  <data name="MySkills" xml:space="preserve">
+    <value>ΟΙ ΔΕΞΙΟΤΗΤΕΣ ΜΟΥ</value>
+  </data>
+  <data name="MyTime" xml:space="preserve">
+    <value>Ο χρόνος μου</value>
+  </data>
+  <data name="NewSkills" xml:space="preserve">
+    <value>ΝΕΕΣ ΔΕΞΙΟΤΗΤΕΣ</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="NoEntries" xml:space="preserve">
+    <value>Δεν βρέθηκαν καταχωρήσεις.</value>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>Αυτήν τη στιγμή αντιμετωπίζουμε πρόβλημα με τη σύνδεση στο διακομιστή. Δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="NoRequirements" xml:space="preserve">
+    <value>Δεν υπάρχουν απαιτήσεις</value>
+  </data>
+  <data name="NoResultsFound" xml:space="preserve">
+    <value>Δεν βρέθηκαν αποτελέσματα.</value>
+  </data>
+  <data name="notApplicable" xml:space="preserve">
+    <value>Δεν ισχύει</value>
+  </data>
+  <data name="NoTeamMembers" xml:space="preserve">
+    <value>Δεν υπάρχουν μέλη ομάδας</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Σημειώσεις</value>
+  </data>
+  <data name="NoWorkCurrently" xml:space="preserve">
+    <value>Προς το παρόν δεν υπάρχουν διαθέσιμη εργασία. Ελέγξτε ξανά αργότερα.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>ΟΚ</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Άλλα</value>
+  </data>
+  <data name="OverviewUppercase" xml:space="preserve">
+    <value>ΕΠΙΣΚΟΠΗΣΗ</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Πληρώθηκε</value>
+  </data>
+  <data name="PleaseEnterYourCRMURL" xml:space="preserve">
+    <value>Καταχωρήστε τη διεύθυνση URL σας για τον Microsoft Dynamics CRM Server.</value>
+  </data>
+  <data name="PleaseLogInToYourCRMServer" xml:space="preserve">
+    <value>Εισέλθετε στον Microsoft Dynamics CRM Server, για να συνεχίσετε.</value>
+  </data>
+  <data name="PleaseSelectSkill" xml:space="preserve">
+    <value>Επιλέξτε δεξιότητα.</value>
+  </data>
+  <data name="PleaseWaitWhileWeSearchDotDotDot" xml:space="preserve">
+    <value>Περιμένετε ενώ αναζητούμε διαθέσιμες εργασίες...</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Θέση:</value>
+  </data>
+  <data name="Posted" xml:space="preserve">
+    <value>Καταχωρήθηκε</value>
+  </data>
+  <data name="ProcessingDotDotDot" xml:space="preserve">
+    <value>Γίνεται επεξεργασία...</value>
+  </data>
+  <data name="Proficiency" xml:space="preserve">
+    <value>Επάρκεια</value>
+  </data>
+  <data name="proficiencyBySystem" xml:space="preserve">
+    <value>Η επάρκεια προσδιορίζεται από το σύστημα.</value>
+  </data>
+  <data name="proficiencyByUser" xml:space="preserve">
+    <value>Η επάρκεια προσδιορίζεται από το χρήστη. Το σύστημα θεωρεί ότι η επάρκεια θα πρέπει να είναι</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Προφίλ</value>
+  </data>
+  <data name="ProfileColon" xml:space="preserve">
+    <value>Προφίλ:</value>
+  </data>
+  <data name="ProfileLowercase" xml:space="preserve">
+    <value>προφίλ</value>
+  </data>
+  <data name="ProfileUpdate" xml:space="preserve">
+    <value>Ενημέρωση προφίλ</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Έργο</value>
+  </data>
+  <data name="ProjectTask" xml:space="preserve">
+    <value>Εργασία έργου</value>
+  </data>
+  <data name="ReallySignOut" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να πραγματοποιήσετε έξοδο;</value>
+  </data>
+  <data name="Recall" xml:space="preserve">
+    <value>Ανάκληση</value>
+  </data>
+  <data name="RecallError" xml:space="preserve">
+    <value>Δεν είναι δυνατή η ανάκληση του στοιχείου. Ελέγξτε τα δεδομένα ή δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>Αποδείξεις</value>
+  </data>
+  <data name="ReceiptsDirName" xml:space="preserve">
+    <value>ExpenseReceipts</value>
+    <comment>Directory name used when saving expense receipts.</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Ανανέωση</value>
+  </data>
+  <data name="RefreshLowercase" xml:space="preserve">
+    <value>ανανέωση</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Απορρίφθηκε</value>
+  </data>
+  <data name="RequirementsUppercase" xml:space="preserve">
+    <value>ΑΠΑΙΤΗΣΕΙΣ</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>el-GR</value>
+    <comment>Do Not Localize. Language code only</comment>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>Φόρος πωλήσεων</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Προσχέδιο</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αποθήκευση του στοιχείου. Ελέγξτε τα δεδομένα ή δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="SearchInFindWork" xml:space="preserve">
+    <value>Αναζήτηση στο Project Finder Mobile</value>
+  </data>
+  <data name="SearchingDotDotDot" xml:space="preserve">
+    <value>Γίνεται αναζήτηση...</value>
+  </data>
+  <data name="SearchLowercase" xml:space="preserve">
+    <value>αναζήτηση</value>
+  </data>
+  <data name="SearchUppercase" xml:space="preserve">
+    <value>ΑΝΑΖΗΤΗΣΗ</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Επιλογή</value>
+  </data>
+  <data name="SelectProficiency" xml:space="preserve">
+    <value>Επιλογή επάρκειας</value>
+  </data>
+  <data name="SelectSkill" xml:space="preserve">
+    <value>Επιλογή δεξιότητας</value>
+  </data>
+  <data name="SetProficiencyForSkillsToUpdate" xml:space="preserve">
+    <value>Ορίστε την επάρκεια για τις δεξιότητες που θέλετε να ενημερωθούν.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="settingsDescription" xml:space="preserve">
+    <value>1. Καταχωρήστε τη διεύθυνση URL του διακομιστή Dynamics CRM και επιλέξτε "Είσοδος".
+2. Καταχωρήστε τα διαπιστευτήριά σας στην επόμενη οθόνη, για να ολοκληρώσετε τη διαδικασία εισόδου.</value>
+  </data>
+  <data name="ShowAllProjects" xml:space="preserve">
+    <value>Εμφάνιση όλων των έργων</value>
+  </data>
+  <data name="ShowMyProjects" xml:space="preserve">
+    <value>Εμφάνιση των έργων μου</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Έξοδος</value>
+  </data>
+  <data name="Skill" xml:space="preserve">
+    <value>Δεξιότητα</value>
+  </data>
+  <data name="SorrySkillSelectionNotSubmitted" xml:space="preserve">
+    <value>Δυστυχώς, η επιλογή δεξιότητας που κάνατε δεν μπόρεσε να υποβληθεί. Δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Ταξινόμηση</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Ταξινόμηση κατά:</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Υποβολή</value>
+  </data>
+  <data name="SubmitError" xml:space="preserve">
+    <value>Δεν είναι δυνατή η υποβολή του στοιχείου. Ελέγξτε τα δεδομένα ή δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="SubmitLowercase" xml:space="preserve">
+    <value>υποβολή</value>
+    <comment>submit in lowercase</comment>
+  </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Υποβλήθηκε</value>
+  </data>
+  <data name="SuggestProfileUpdates" xml:space="preserve">
+    <value>Πρόταση ενημερώσεων προφίλ</value>
+  </data>
+  <data name="TeamUppercase" xml:space="preserve">
+    <value>ΟΜΑΔΑ</value>
+  </data>
+  <data name="TextSizeLimitedTo" xml:space="preserve">
+    <value>Το κείμενο περιορίζεται σε {0} χαρακτήρες.</value>
+    <comment>Error message when the user has entered more text than is allowed. {Placeholder="{0}"} Placeholder 0 is the number of allowed characters</comment>
+  </data>
+  <data name="ThereAreNoSkillsOnYourProfile" xml:space="preserve">
+    <value>Δεν υπάρχουν δεξιότητες στο προφίλ σας. Για να προσθέσετε μια δεξιότητα, επιλέξτε "Προσθήκη δεξιότητας".</value>
+  </data>
+  <data name="TimeEntries" xml:space="preserve">
+    <value>Χρονικές καταχωρήσεις</value>
+  </data>
+  <data name="TimeExceeded" xml:space="preserve">
+    <value>Οι χρονικές καταχωρήσεις για αυτήν την ημερομηνία δεν υπερβαίνουν τις 24 ώρες.</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>προς</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Τύπος</value>
+  </data>
+  <data name="UnsavedDataWarning" xml:space="preserve">
+    <value>Τα μη αποθηκευμένα δεδομένα σας θα χαθούν. Είστε βέβαιοι ότι θέλετε να απορρίψετε τις αλλαγές σας;</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Ενημέρωση</value>
+  </data>
+  <data name="UpdatedSkills" xml:space="preserve">
+    <value>ΕΝΗΜΕΡΩΜΕΝΕΣ ΔΕΞΙΟΤΗΤΕΣ</value>
+  </data>
+  <data name="UpdateLowercase" xml:space="preserve">
+    <value>ενημέρωση</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Προβολή</value>
+  </data>
+  <data name="WelcomeComma" xml:space="preserve">
+    <value>Καλώς ορίσατε,</value>
+  </data>
+  <data name="YearLowercase" xml:space="preserve">
+    <value>έτος</value>
+  </data>
+  <data name="YearsLowercase" xml:space="preserve">
+    <value>έτη</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="YouHaveNotUpdated" xml:space="preserve">
+    <value>Δεν έχετε ενημερώσει δεξιότητες.</value>
+  </data>
+  <data name="YourApplicationSent" xml:space="preserve">
+    <value>Η αίτησή σας υποβλήθηκε με επιτυχία.
+
+Έργο:</value>
+  </data>
+  <data name="YourOrganizationHasNoSkillsDefined" xml:space="preserve">
+    <value>Ο οργανισμός σας δεν έχει προσδιορίσει δεξιότητες ή επάρκειες. Επικοινωνήστε με το διαχειριστή του συστήματος.</value>
+  </data>
+  <data name="YourProfileIsUpToDate" xml:space="preserve">
+    <value>Το προφίλ σας είναι ενημερωμένο.</value>
+  </data>
+  <data name="YourSkillSelectionSubmitted" xml:space="preserve">
+    <value>Η επιλογή δεξιοτήτων που κάνατε έχει υποβληθεί για ενημέρωση.</value>
+  </data>
+  <data name="Justification" xml:space="preserve">
+    <value>\nΑιτιολογία: {0}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is the justification text</comment>
+  </data>
+  <data name="PleaseSelectProficiency" xml:space="preserve">
+    <value>Επιλέξτε επάρκεια</value>
+  </data>
+  <data name="DurationHours" xml:space="preserve">
+    <value>{0} ώ</value>
+    <comment>Displays time in hours only. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours</comment>
+  </data>
+  <data name="DurationHoursMinute" xml:space="preserve">
+    <value>{0} ώ {1} λ</value>
+    <comment>Displays time in hours and minutes. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours,  {Placeholder="{1}"} Placeholder 1 is an integer to representing the number of minutes</comment>
+  </data>
+  <data name="BySkillsLowercase" xml:space="preserve">
+    <value>κατά δεξιότητες</value>
+  </data>
+  <data name="HeresWorkThatFitsBySkill" xml:space="preserve">
+    <value>Δείτε εδώ εργασία που αντιστοιχεί στις δεξιότητές σας.</value>
+  </data>
+  <data name="PhoneUpdateNeeded" xml:space="preserve">
+    <value>Η έκδοση εφαρμογής τηλεφώνου είναι προγενέστερη από την έκδοση διακομιστή. Ενημερώστε αυτήν την εφαρμογή τηλεφώνου.</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Δεξιότητες</value>
+  </data>
+  <data name="signoutLowercase" xml:space="preserve">
+    <value>έξοδος</value>
+    <comment>sign out in lowercase</comment>
+  </data>
+  <data name="sortLowercase" xml:space="preserve">
+    <value>ταξινόμηση</value>
+    <comment>sort in lowercase</comment>
+  </data>
+  <data name="ApplicationSentMessage" xml:space="preserve">
+    <value>Η αίτησή σας υποβλήθηκε με επιτυχία.\n\nΈργο: {0}\nΘέση: {1}</value>
+    <comment>Application sent confirmation text. {Placeholder="{0}"} Placeholder 0 is the project name, {Placeholder="{1}"} Placeholder 1 is the position name</comment>
+  </data>
+  <data name="CollaboratorFullName" xml:space="preserve">
+    <value>{0} - {1}: {2}</value>
+    <comment>Collaborator full name. {Placeholder="{0}"} Placeholder 0 is the title, {Placeholder="{1}"} Placeholder 1 is the name, {Placeholder="{2}"} Placeholder 2 is the weight</comment>
+  </data>
+  <data name="DurationContainer" xml:space="preserve">
+    <value>({0})</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration</comment>
+  </data>
+  <data name="DurationLessThanOneDay" xml:space="preserve">
+    <value>&lt; 1 ημέρα</value>
+    <comment>Less than one day</comment>
+  </data>
+  <data name="FullDuration" xml:space="preserve">
+    <value>{0} έως {1} {2}</value>
+    <comment>Work Duration text. {Placeholder="{0}"} Placeholder 0 is the work start date, {Placeholder="{1}"} Placeholder 1 is the work end date, {Placeholder="{2}"} Placeholder 2 is the duration</comment>
+  </data>
+  <data name="MoreReasonsText" xml:space="preserve">
+    <value>{0} περισσότερα ...</value>
+    <comment>Additional hidden reasons text, implies more options. {Placeholder="{0}"} Placeholder 0 is number of skills not shown</comment>
+  </data>
+  <data name="ProficiencyNoteText" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Proficiency note text. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name</comment>
+  </data>
+  <data name="ProficiencyNoteTextJustification" xml:space="preserve">
+    <value>{0} {1}{2}</value>
+    <comment>Proficiency note text with justification. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name, {Placeholder="{2}"} Placeholder 2 is the justification</comment>
+  </data>
+  <data name="RoleAndProject" xml:space="preserve">
+    <value>{0}|{1}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is role name, {Placeholder="{1}"} Placeholder 1 is project name</comment>
+  </data>
+  <data name="Span" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration, {Placeholder="{1}"} Placeholder 1 is day or days, month or months, etc </comment>
+  </data>
+  <data name="UserFirstNameLastName" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Full name {Placeholder="{0}"} Placeholder 0 is given name, {Placeholder="{1}"} Placeholder 1 is family name</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Πληροφορίες</value>
+  </data>
+</root>

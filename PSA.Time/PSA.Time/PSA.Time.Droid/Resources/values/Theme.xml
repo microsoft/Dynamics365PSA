@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+  <color name="app_color">#FF04A297</color>
+  <color name="app_text_color">@android:color/white</color>
+  <color name="app_unselected_color">#FF04A297</color>
+  <color name="accent_color">#FF04A297</color>
+
+  <!-- the theme applied to the application or activity -->
+  <style name="AppTheme"
+         parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+    <item name="android:actionBarStyle">@style/AppActionBar</item>
+    <item name="android:actionMenuTextColor">@color/app_text_color</item>
+    <item name="android:actionBarTabStyle">@style/AppActionBarTab</item>
+  </style>
+
+  <!-- ActionBar styles -->
+  <style name="AppActionBar"
+         parent="@android:style/Widget.DeviceDefault.Light.ActionBar">
+    <item name="android:background">@color/app_color</item>
+    <item name="android:titleTextStyle">@style/AppActionBarTitleText</item>
+    <item name="android:icon">@android:color/transparent</item>
+    <!-- This does the magic! -->
+  </style>
+
+  <style name="AppActionBarTab"
+    parent="@android:style/Widget.DeviceDefault.ActionBar.TabView">
+    <item name="android:textColor">@color/app_unselected_color</item>
+    <item name="android:background">@drawable/tab_bar_background</item>
+  </style>
+
+  <!-- ActionBar title text -->
+  <style name="AppActionBarTitleText"
+         parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+</resources>
+

@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Impostazioni account</value>
+  </data>
+  <data name="AddProficiency" xml:space="preserve">
+    <value>Aggiungi livello di preparazione</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="AddSkill" xml:space="preserve">
+    <value>Aggiungi competenza</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Tutto</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Importo</value>
+  </data>
+  <data name="AnErrorOccurredWhileGettingYourWork" xml:space="preserve">
+    <value>Errore durante il recupero degli elementi consigliati per il lavoro. Riprova più tardi.</value>
+  </data>
+  <data name="ApplicationSent" xml:space="preserve">
+    <value>Domanda inviata</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Invia domanda</value>
+  </data>
+  <data name="ApplyingForJob" xml:space="preserve">
+    <value>Invio in corso della domanda per questo lavoro...</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>APPROVATO</value>
+  </data>
+  <data name="ByCompatibilityLowercase" xml:space="preserve">
+    <value>per compatibilità</value>
+  </data>
+  <data name="ByDurationLowercase" xml:space="preserve">
+    <value>per durata</value>
+  </data>
+  <data name="ByEarliestStartLowercase" xml:space="preserve">
+    <value>per inizio al più presto</value>
+  </data>
+  <data name="ByMyConnectionsLowercase" xml:space="preserve">
+    <value>per connessioni personali</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="CancelLowercase" xml:space="preserve">
+    <value>annulla</value>
+    <comment>cancel in lowercase</comment>
+  </data>
+  <data name="CaptureReceipt" xml:space="preserve">
+    <value>Aggiungi ricevuta</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>Non puoi salvare una spesa senza una categoria. Seleziona una categoria e prova di nuovo a salvare.</value>
+    <comment>Error when user hasn't entered an expense cateogory.</comment>
+  </data>
+  <data name="ChangeExpenseTypeWarning" xml:space="preserve">
+    <value>Se modifichi una categoria di spesa, le seguenti informazioni andranno perse: {0}.
+Vuoi continuare?</value>
+    <comment>Error message indicating some data will be lost if the user changes expense category. {Placeholder="{0}"} Placeholder 0 is a string of the data that will be lost</comment>
+  </data>
+  <data name="Compatibility" xml:space="preserve">
+    <value>Compatibilità</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>Connesso a</value>
+  </data>
+  <data name="ContactingYourCompanyDotDotDot" xml:space="preserve">
+    <value>Contatto in corso con la tua società...</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Clienti</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DateInvalidWarning" xml:space="preserve">
+    <value>La data specificata non è valida.</value>
+  </data>
+  <data name="DayLowercase" xml:space="preserve">
+    <value>giorno</value>
+  </data>
+  <data name="DaysLowercase" xml:space="preserve">
+    <value>giorni</value>
+  </data>
+  <data name="DefaultDirectory" xml:space="preserve">
+    <value>myDirectory</value>
+    <comment>Default directory to give when there is none provided</comment>
+  </data>
+  <data name="DefaultFilename" xml:space="preserve">
+    <value>myFile</value>
+    <comment>Default filename to give when there is none provided</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="DeleteWarning" xml:space="preserve">
+    <value>Le voci selezionate verranno eliminate.</value>
+  </data>
+  <data name="DeleteWarningExpense" xml:space="preserve">
+    <value>La spesa selezionata verrà eliminata.</value>
+    <comment>Confirmation message when deleting expenses.</comment>
+  </data>
+  <data name="DeleteWarningTime" xml:space="preserve">
+    <value>L'inserimento ore selezionato verrà eliminato.</value>
+    <comment>Confirmation message when deleting time entries.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="DescriptionUppercase" xml:space="preserve">
+    <value>DESCRIZIONE</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Dettagli</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Bozza</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Durata (HH.mm)</value>
+  </data>
+  <data name="DurationText" xml:space="preserve">
+    <value>Durata</value>
+  </data>
+  <data name="EarliestStart" xml:space="preserve">
+    <value>Inizio al più presto</value>
+  </data>
+  <data name="endPoint" xml:space="preserve">
+    <value>Indirizzo CRM Online</value>
+  </data>
+  <data name="errorAuthenticationCancelled" xml:space="preserve">
+    <value>Hai annullato l'autenticazione. Per usare l'app, accedi al server CRM.</value>
+  </data>
+  <data name="errorAuthenticationFailed" xml:space="preserve">
+    <value>Errore durante il tentativo di autenticazione sul server. Riprova più tardi.</value>
+  </data>
+  <data name="errorCrmRequestNotSupported" xml:space="preserve">
+    <value>La tua soluzione Servizio di progetto potrebbe non essere configurata correttamente. Contatta l'amministratore.</value>
+  </data>
+  <data name="errorNoInternet" xml:space="preserve">
+    <value>Non è presente una connessione a Internet. Controlla la connessione e riprova.</value>
+  </data>
+  <data name="errorOAuthUrlRetrieveFailed" xml:space="preserve">
+    <value>Impossibile connettersi al server specificato. Controlla l'URL del server CRM o la connessione a Internet e riprova.</value>
+  </data>
+  <data name="ErrorOpeningFile" xml:space="preserve">
+    <value>Impossibile aprire il file seguente: {0}</value>
+    <comment>Error message when a file I/O open operation failed. {Placeholder="{0}"} Placeholder 0 is the name of the file that could not be opened</comment>
+  </data>
+  <data name="errorRestCall" xml:space="preserve">
+    <value>Errore sul server durante l'elaborazione di questa operazione.</value>
+  </data>
+  <data name="errorRetrievePrivilegeForUser" xml:space="preserve">
+    <value>Non hai l'autorizzazione per accedere all'applicazione. Contatta l'amministratore.</value>
+  </data>
+  <data name="errorServiceAccessDenied" xml:space="preserve">
+    <value>Non disponi dell'accesso al servizio. Prova ad accedere di nuovo.</value>
+  </data>
+  <data name="errorServiceContactAdmin" xml:space="preserve">
+    <value>Errore nel tentativo di contattare il servizio. Contatta l'amministratore. Dettagli errore:\n\n{0}</value>
+    <comment>Error when the app is not able to connect to your dynamics instance. {Placeholder="{0}"} Placeholder 0 is a string containing details of the error</comment>
+  </data>
+  <data name="errorServiceUnknown" xml:space="preserve">
+    <value>Errore nel tentativo di contattare il servizio. Riprova più tardi.</value>
+  </data>
+  <data name="errorSessionExpired" xml:space="preserve">
+    <value>La sessione è scaduta e sei disconnesso/a. Accedi nuovamente.</value>
+  </data>
+  <data name="errorTitle" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="ExpenseReceiptSubmitError" xml:space="preserve">
+    <value>Questo tipo di spesa non può essere inviato senza ricevuta. Allega una ricevuta e prova di nuovo a inviare la spesa.</value>
+    <comment>Error thrown when user tries to submit an expense without receipt attach that requires one.</comment>
+  </data>
+  <data name="expenseSaved" xml:space="preserve">
+    <value>Salvato</value>
+  </data>
+  <data name="ExternalComments" xml:space="preserve">
+    <value>Commenti esterni</value>
+  </data>
+  <data name="GettingYourInfoDotDotDot" xml:space="preserve">
+    <value>Recupero delle tue informazioni in corso...</value>
+  </data>
+  <data name="HereAreSkillsOnYourProfile" xml:space="preserve">
+    <value>Queste sono le competenze nel tuo profilo. Puoi aggiornarle o aggiungerne di nuove.</value>
+  </data>
+  <data name="HeresWorkThatFits" xml:space="preserve">
+    <value>Questo lavoro corrisponde alla tua esperienza e alle tue preferenze.</value>
+  </data>
+  <data name="inProcess" xml:space="preserve">
+    <value>In corso</value>
+  </data>
+  <data name="InternalComments" xml:space="preserve">
+    <value>Commenti interni</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>Puoi immettere solo numeri positivi per la durata di un inserimento ore. Riprova con un numero positivo nel formato HH.mm.</value>
+  </data>
+  <data name="InYourConnections" xml:space="preserve">
+    <value>Nelle connessioni personali</value>
+  </data>
+  <data name="ItSeemsProfileOutOfDateWouldYouUpdate" xml:space="preserve">
+    <value>Sembra che il tuo profilo non sia aggiornato. Vuoi aggiornarlo?</value>
+  </data>
+  <data name="ItSeemsYourProfileIsOutOfDate" xml:space="preserve">
+    <value>Sembra che il tuo profilo non sia aggiornato. Ecco cosa abbiamo per te:</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Località</value>
+  </data>
+  <data name="LocationUppercase" xml:space="preserve">
+    <value>LOCALITÀ</value>
+  </data>
+  <data name="LoggingInPleaseWait" xml:space="preserve">
+    <value>Attendi, accesso in corso...</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Disconnetti</value>
+  </data>
+  <data name="LogOutOk" xml:space="preserve">
+    <value>La sessione è stata chiusa.</value>
+  </data>
+  <data name="messageTitle" xml:space="preserve">
+    <value>Messaggio</value>
+  </data>
+  <data name="MonthLowercase" xml:space="preserve">
+    <value>mese</value>
+  </data>
+  <data name="MonthsLowercase" xml:space="preserve">
+    <value>mesi</value>
+  </data>
+  <data name="moreDotDotDot" xml:space="preserve">
+    <value>altro...</value>
+  </data>
+  <data name="MyConnections" xml:space="preserve">
+    <value>Connessioni personali</value>
+  </data>
+  <data name="MyExpenses" xml:space="preserve">
+    <value>Spese personali</value>
+  </data>
+  <data name="MySkills" xml:space="preserve">
+    <value>COMPETENZE PERSONALI</value>
+  </data>
+  <data name="MyTime" xml:space="preserve">
+    <value>Orario personale</value>
+  </data>
+  <data name="NewSkills" xml:space="preserve">
+    <value>NUOVE COMPETENZE</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoEntries" xml:space="preserve">
+    <value>Nessuna voce trovata.</value>
+  </data>
+  <data name="NoNetwork" xml:space="preserve">
+    <value>Problemi di connessione al server. Riprova più tardi.</value>
+  </data>
+  <data name="NoRequirements" xml:space="preserve">
+    <value>Nessun requisito</value>
+  </data>
+  <data name="NoResultsFound" xml:space="preserve">
+    <value>Nessun risultato trovato.</value>
+  </data>
+  <data name="notApplicable" xml:space="preserve">
+    <value>Non applicabile</value>
+  </data>
+  <data name="NoTeamMembers" xml:space="preserve">
+    <value>Nessun membro del team</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NoWorkCurrently" xml:space="preserve">
+    <value>Nessun lavoro disponibile al momento. Ricontrolla più tardi.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="OverviewUppercase" xml:space="preserve">
+    <value>INFORMAZIONI GENERALI</value>
+  </data>
+  <data name="Paid" xml:space="preserve">
+    <value>Pagato</value>
+  </data>
+  <data name="PleaseEnterYourCRMURL" xml:space="preserve">
+    <value>Immetti l'URL del server Microsoft Dynamics CRM.</value>
+  </data>
+  <data name="PleaseLogInToYourCRMServer" xml:space="preserve">
+    <value>Accedi al server Microsoft Dynamics CRM per continuare.</value>
+  </data>
+  <data name="PleaseSelectSkill" xml:space="preserve">
+    <value>Seleziona una competenza.</value>
+  </data>
+  <data name="PleaseWaitWhileWeSearchDotDotDot" xml:space="preserve">
+    <value>Attendi, ricerca di lavori disponibili in corso...</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Posizione:</value>
+  </data>
+  <data name="Posted" xml:space="preserve">
+    <value>Registrato</value>
+  </data>
+  <data name="ProcessingDotDotDot" xml:space="preserve">
+    <value>Elaborazione in corso...</value>
+  </data>
+  <data name="Proficiency" xml:space="preserve">
+    <value>Livello di preparazione</value>
+  </data>
+  <data name="proficiencyBySystem" xml:space="preserve">
+    <value>Livello di preparazione determinato dal sistema.</value>
+  </data>
+  <data name="proficiencyByUser" xml:space="preserve">
+    <value>Livello di preparazione determinato dall'utente. Secondo il sistema, il livello di preparazione dovrebbe essere</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profilo</value>
+  </data>
+  <data name="ProfileColon" xml:space="preserve">
+    <value>Profilo:</value>
+  </data>
+  <data name="ProfileLowercase" xml:space="preserve">
+    <value>profilo</value>
+  </data>
+  <data name="ProfileUpdate" xml:space="preserve">
+    <value>Aggiornamento profilo</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Progetto</value>
+  </data>
+  <data name="ProjectTask" xml:space="preserve">
+    <value>Attività di progetto</value>
+  </data>
+  <data name="ReallySignOut" xml:space="preserve">
+    <value>Vuoi disconnetterti?</value>
+  </data>
+  <data name="Recall" xml:space="preserve">
+    <value>Richiama</value>
+  </data>
+  <data name="RecallError" xml:space="preserve">
+    <value>Impossibile richiamare la voce. Controlla i dati o riprova più tardi.</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>Ricevute</value>
+  </data>
+  <data name="ReceiptsDirName" xml:space="preserve">
+    <value>ExpenseReceipts</value>
+    <comment>Directory name used when saving expense receipts.</comment>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="RefreshLowercase" xml:space="preserve">
+    <value>aggiorna</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Rifiutato</value>
+  </data>
+  <data name="RequirementsUppercase" xml:space="preserve">
+    <value>REQUISITI</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>it-IT</value>
+    <comment>Do Not Localize. Language code only</comment>
+  </data>
+  <data name="SalesTax" xml:space="preserve">
+    <value>IVA</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Bozza</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Impossibile salvare la voce. Controlla i dati o riprova più tardi.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="SearchInFindWork" xml:space="preserve">
+    <value>Cerca in Project Finder Mobile</value>
+  </data>
+  <data name="SearchingDotDotDot" xml:space="preserve">
+    <value>Ricerca in corso...</value>
+  </data>
+  <data name="SearchLowercase" xml:space="preserve">
+    <value>cerca</value>
+  </data>
+  <data name="SearchUppercase" xml:space="preserve">
+    <value>CERCA</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Seleziona</value>
+  </data>
+  <data name="SelectProficiency" xml:space="preserve">
+    <value>Seleziona livello di preparazione</value>
+  </data>
+  <data name="SelectSkill" xml:space="preserve">
+    <value>Seleziona una competenza</value>
+  </data>
+  <data name="SetProficiencyForSkillsToUpdate" xml:space="preserve">
+    <value>Imposta il livello di preparazione per le competenze che vuoi aggiornare.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="settingsDescription" xml:space="preserve">
+    <value>1. Immetti l'URL del server Dynamics CRM e fai clic su Accedi.
+2. Immetti le tue credenziali nella schermata successiva per completare la procedura di accesso.</value>
+  </data>
+  <data name="ShowAllProjects" xml:space="preserve">
+    <value>Mostra tutti i progetti</value>
+  </data>
+  <data name="ShowMyProjects" xml:space="preserve">
+    <value>Mostra progetti personali</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Disconnetti</value>
+  </data>
+  <data name="Skill" xml:space="preserve">
+    <value>Competenza</value>
+  </data>
+  <data name="SorrySkillSelectionNotSubmitted" xml:space="preserve">
+    <value>Impossibile inviare la tua selezione di competenze. Riprova più tardi.</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Ordina</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Ordina per:</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Invia</value>
+  </data>
+  <data name="SubmitError" xml:space="preserve">
+    <value>Impossibile inviare la voce. Controlla i dati o riprova più tardi.</value>
+  </data>
+  <data name="SubmitLowercase" xml:space="preserve">
+    <value>invia</value>
+    <comment>submit in lowercase</comment>
+  </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Inviato</value>
+  </data>
+  <data name="SuggestProfileUpdates" xml:space="preserve">
+    <value>Suggerisci aggiornamenti profilo</value>
+  </data>
+  <data name="TeamUppercase" xml:space="preserve">
+    <value>TEAM</value>
+  </data>
+  <data name="TextSizeLimitedTo" xml:space="preserve">
+    <value>Il testo è limitato a {0} caratteri.</value>
+    <comment>Error message when the user has entered more text than is allowed. {Placeholder="{0}"} Placeholder 0 is the number of allowed characters</comment>
+  </data>
+  <data name="ThereAreNoSkillsOnYourProfile" xml:space="preserve">
+    <value>Non sono presenti competenze nel tuo profilo. Per aggiungerne una, seleziona Aggiungi competenza.</value>
+  </data>
+  <data name="TimeEntries" xml:space="preserve">
+    <value>Inserimenti ore</value>
+  </data>
+  <data name="TimeExceeded" xml:space="preserve">
+    <value>Gli inserimenti ore per questa data non possono superare le 24 ore.</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="UnsavedDataWarning" xml:space="preserve">
+    <value>I dati non salvati andranno persi. Vuoi rimuovere tutte le modifiche?</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="UpdatedSkills" xml:space="preserve">
+    <value>COMPETENZE AGGIORNATE</value>
+  </data>
+  <data name="UpdateLowercase" xml:space="preserve">
+    <value>aggiorna</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visualizza</value>
+  </data>
+  <data name="WelcomeComma" xml:space="preserve">
+    <value>Ti diamo il benvenuto,</value>
+  </data>
+  <data name="YearLowercase" xml:space="preserve">
+    <value>anno</value>
+  </data>
+  <data name="YearsLowercase" xml:space="preserve">
+    <value>anni</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="YouHaveNotUpdated" xml:space="preserve">
+    <value>Non hai aggiornato nessuna competenza.</value>
+  </data>
+  <data name="YourApplicationSent" xml:space="preserve">
+    <value>La tua domanda è stata inviata.
+
+Progetto:</value>
+  </data>
+  <data name="YourOrganizationHasNoSkillsDefined" xml:space="preserve">
+    <value>Non sono definite competenze o livelli di preparazione per la tua organizzazione. Contatta l'amministratore di sistema.</value>
+  </data>
+  <data name="YourProfileIsUpToDate" xml:space="preserve">
+    <value>Il tuo profilo è aggiornato.</value>
+  </data>
+  <data name="YourSkillSelectionSubmitted" xml:space="preserve">
+    <value>La tua selezione di competenze è stata inviata per l'aggiornamento.</value>
+  </data>
+  <data name="Justification" xml:space="preserve">
+    <value>\nGiustificazione: {0}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is the justification text</comment>
+  </data>
+  <data name="PleaseSelectProficiency" xml:space="preserve">
+    <value>Seleziona un livello di preparazione</value>
+  </data>
+  <data name="DurationHours" xml:space="preserve">
+    <value>{0} h</value>
+    <comment>Displays time in hours only. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours</comment>
+  </data>
+  <data name="DurationHoursMinute" xml:space="preserve">
+    <value>{0} h {1} m</value>
+    <comment>Displays time in hours and minutes. {Placeholder="{0}"} Placeholder 0 is an integer to representing the number of hours,  {Placeholder="{1}"} Placeholder 1 is an integer to representing the number of minutes</comment>
+  </data>
+  <data name="BySkillsLowercase" xml:space="preserve">
+    <value>per competenze</value>
+  </data>
+  <data name="HeresWorkThatFitsBySkill" xml:space="preserve">
+    <value>Questo lavoro corrisponde alle tue competenze.</value>
+  </data>
+  <data name="PhoneUpdateNeeded" xml:space="preserve">
+    <value>La versione dell'app telefonica è precedente a quella sul server. Aggiorna l'app telefonica.</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Competenze</value>
+  </data>
+  <data name="signoutLowercase" xml:space="preserve">
+    <value>disconnetti</value>
+    <comment>sign out in lowercase</comment>
+  </data>
+  <data name="sortLowercase" xml:space="preserve">
+    <value>ordina</value>
+    <comment>sort in lowercase</comment>
+  </data>
+  <data name="ApplicationSentMessage" xml:space="preserve">
+    <value>La tua domanda è stata inviata.\n\nProgetto: {0}\nPosizione: {1}</value>
+    <comment>Application sent confirmation text. {Placeholder="{0}"} Placeholder 0 is the project name, {Placeholder="{1}"} Placeholder 1 is the position name</comment>
+  </data>
+  <data name="CollaboratorFullName" xml:space="preserve">
+    <value>{0} - {1}: {2}</value>
+    <comment>Collaborator full name. {Placeholder="{0}"} Placeholder 0 is the title, {Placeholder="{1}"} Placeholder 1 is the name, {Placeholder="{2}"} Placeholder 2 is the weight</comment>
+  </data>
+  <data name="DurationContainer" xml:space="preserve">
+    <value>({0})</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration</comment>
+  </data>
+  <data name="DurationLessThanOneDay" xml:space="preserve">
+    <value>&lt; 1 giorno</value>
+    <comment>Less than one day</comment>
+  </data>
+  <data name="FullDuration" xml:space="preserve">
+    <value>Dal {0} al {1} {2}</value>
+    <comment>Work Duration text. {Placeholder="{0}"} Placeholder 0 is the work start date, {Placeholder="{1}"} Placeholder 1 is the work end date, {Placeholder="{2}"} Placeholder 2 is the duration</comment>
+  </data>
+  <data name="MoreReasonsText" xml:space="preserve">
+    <value>{0} altre...</value>
+    <comment>Additional hidden reasons text, implies more options. {Placeholder="{0}"} Placeholder 0 is number of skills not shown</comment>
+  </data>
+  <data name="ProficiencyNoteText" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Proficiency note text. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name</comment>
+  </data>
+  <data name="ProficiencyNoteTextJustification" xml:space="preserve">
+    <value>{0} {1}{2}</value>
+    <comment>Proficiency note text with justification. {Placeholder="{0}"} Placeholder 0 is the proficiency of the user, {Placeholder="{1}"} Placeholder 1 is the proficiency name, {Placeholder="{2}"} Placeholder 2 is the justification</comment>
+  </data>
+  <data name="RoleAndProject" xml:space="preserve">
+    <value>{0}|{1}</value>
+    <comment>{Placeholder="{0}"} Placeholder 0 is role name, {Placeholder="{1}"} Placeholder 1 is project name</comment>
+  </data>
+  <data name="Span" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Duration text. {Placeholder="{0}"} Placeholder 0 is duration, {Placeholder="{1}"} Placeholder 1 is day or days, month or months, etc </comment>
+  </data>
+  <data name="UserFirstNameLastName" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Full name {Placeholder="{0}"} Placeholder 0 is given name, {Placeholder="{1}"} Placeholder 1 is family name</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Informazioni</value>
+  </data>
+</root>
