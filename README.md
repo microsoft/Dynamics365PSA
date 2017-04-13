@@ -1,4 +1,4 @@
-#Dynamics 365 Project Service Automation samples
+# Dynamics 365 Project Service Automation samples
 This Repo contains two sample applications that can be used with the Dynamics 365 for Project Service Automation solution. The sample apps are for Time Entry and Expense entry. Important: These samples provide examples of applications that can be used to enter time entries or expense entries with Dynamics 365 for Project Service Automation. Microsoft does not provide support for these samples.
 
 # Contributing
